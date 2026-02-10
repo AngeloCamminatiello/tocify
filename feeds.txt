@@ -6,45 +6,11 @@ Science Advances | https://www.science.org/content/page/email-alerts-and-rss-fee
 PNAS | http://www.pnas.org/rss/Neuroscience.xml
 PNAS | http://www.pnas.org/rss/Psychological_and_Cognitive_Sciences.xml
 
-# neuroscience journals
-bioRxiv | http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience
-Nature Neuroscience | https://www.nature.com/neuro.rss
-Nature Human Behav | https://www.nature.com/nathumbehav.rss
-Nature Aging | https://www.nature.com/nataging.rss
-Neuron | https://www.cell.com/neuron/rss
-J Neurosci | https://www.jneurosci.org/rss/current.xml
-Neuron | http://www.cell.com/neuron/inpress.rss
-Cerebral Cortex | http://cercor.oxfordjournals.org/rss/current.xml
-J Cogn Neurosci | https://ieeexplore.ieee.org/rss/TOC6720218.XML
-NeuroImage | http://www.journals.elsevier.com/neuroimage/rss
-
-# biology journals
-Cell | https://www.cell.com/cell/current.rss
-eLife | https://elifesciences.org/rss/subject/neuroscience.xml
-PLOS Biol | https://journals.plos.org/plosbiology/feed/atom
-PLOS Comp Bio | https://journals.plos.org/ploscompbiol/rss
-Nature Biotechnology | https://www.nature.com/nbt.rss
+Journal of Fluid Mechanics | http://journals.cambridge.org/data/rss/feed_FLM_rss_2.0.xml
 
 # AI/ML journals
 Nature Comput Sci | https://www.nature.com/natcomputsci.rss
 Nature Machine Intell | https://www.nature.com/natmachintell.rss
-
-# clinical journals
-JAMA | https://jamanetwork.com/rss/site_3/67.xml
-JAMA Network Open | https://jamanetwork.com/rss/site_214/187.xml
-JAMA Neurol | https://jamanetwork.com/rss/site_16/72.xml
-JAMA Psychiatry | https://jamanetwork.com/rss/site_14/70.xml
-JAMA Cardiol | https://jamanetwork.com/rss/site_192/184.xml
-JAMA Pediatrics | https://jamanetwork.com/rss/site_19/75.xml
-Lancet | http://www.thelancet.com/rssfeed/lancet_current.xml
-Lancet Digital Health | http://www.thelancet.com/rssfeed/laneur_current.xml
-Lancet Neurol | http://www.thelancet.com/rssfeed/landig_current.xml
-Lancet Psychiatry | http://www.thelancet.com/rssfeed/lanpsy_current.xml
-Nature Medicine | http://www.nature.com/nm/current_issue/rss/
-Nature Mental Health | https://www.nature.com/natmentalhealth.rss
-npj Digital Health | https://www.nature.com/npjdigipubhealth.rss
-npj Digital Med | https://www.nature.com/npjdigitalmed.rss
-Trans Psychiatry | https://www.nature.com/tp.rss
 
 # methods and data journals
 Nature Methods | http://www.nature.com/nmeth/current_issue/rss
