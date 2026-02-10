@@ -7,6 +7,7 @@ PNAS | http://www.pnas.org/rss/Neuroscience.xml
 PNAS | http://www.pnas.org/rss/Psychological_and_Cognitive_Sciences.xml
 
 Journal of Fluid Mechanics | http://journals.cambridge.org/data/rss/feed_FLM_rss_2.0.xml
+Physics of Fluids | https://pubs.aip.org/aip/pof/issue/current?rss=true
 
 # AI/ML journals
 Nature Comput Sci | https://www.nature.com/natcomputsci.rss
