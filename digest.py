@@ -8,7 +8,7 @@ from openai import OpenAI, APITimeoutError, APIConnectionError, RateLimitError
 
 
 # ---- config (env-tweakable) ----
-MODEL = os.getenv("OPENAI_MODEL", "gpt-4o")
+MODEL = os.getenv("OPENAI_MODEL", "gpt-5-mini")
 MAX_ITEMS_PER_FEED = int(os.getenv("MAX_ITEMS_PER_FEED", "50"))
 MAX_TOTAL_ITEMS = int(os.getenv("MAX_TOTAL_ITEMS", "400"))
 LOOKBACK_DAYS = int(os.getenv("LOOKBACK_DAYS", "7"))
