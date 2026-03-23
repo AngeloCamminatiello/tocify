@@ -1,296 +1,279 @@
-# Weekly ToC Digest (week of 2026-03-16)
+# Weekly ToC Digest (week of 2026-03-23)
 
-Prioritized items related to electrophysiology, neural time-series methods, oscillations/aperiodic dynamics, datasets for physiological signals, and computational/learning models. Prioritized methods for neural dynamics and connectivity, and computational/neural-circuit studies. Downweighted purely molecular, clinical, or behavioral-only items. Selected items prioritized for neural dynamics, timescales, and computational/methods relevance. High weight given to papers addressing slow/aperiodic dynamics, neural propagation phenomena, and methods that enable cross-scale or ambulatory measurements; fMRI-only or purely molecular/clinical studies are down-weighted. This week's item is cardiovascular/immunology-focused and not relevant to neural dynamics, electrophysiology, or computational/time-series methods — low priority for this lab.
+Prioritised computational/neural-interface and theory/methods pieces; general biology and clinical items down-weighted. Top items include a primate spinal-circuit study with in vivo work, a hypothalamic clock study linking circadian timing to pain, and a methods-relevant piece on tuning deep-brain activity. Several other items are neuroscience-oriented but primarily cellular or neuroimmune rather than time-series / electrophysiology methods. Prioritized items relevant to neural time-series methods, oscillatory/aperiodic dynamics, timescales, cross-species electrophysiology, and computational/models of brain synchronization. Prioritized items that involve neural circuits, neuromodulation, physiological signal mechanisms, or broadly relevant methods; downweighted molecular, immunology, cancer, and purely clinical or behavioral papers without neural data or computational/neural time-series methods.
 
-**Included:** 17 (score ≥ 0.35)  
-**Scored:** 21 total items
+**Included:** 16 (score ≥ 0.35)  
+**Scored:** 31 total items
 
 ---
 
-## [A human EEG dataset to study cognitive flexibility during auditory discrimination under real-world distractors](https://www.nature.com/articles/s41597-026-07041-5)
-*Scientific Data*  
+## [Computational framework to predict and shape human–machine interactions in closed-loop, co-adaptive neural interfaces](https://www.nature.com/articles/s42256-026-01194-z)
+*Nature Machine Intell*  
 Score: **0.95**  
-Published: 2026-03-14T00:00:00+00:00
-Tags: EEG, dataset, cognitive, time-series, methods
+Published: 2026-03-23T00:00:00+00:00
+Tags: neural interfaces, closed-loop, control theory, co-adaptation, methods
 
-Directly provides human EEG recordings and a dataset designed for cognitive tasks under real-world distractors, which is highly relevant for neural time-series analysis and benchmarking spectral/waveform methods.
+Introduces a computational framework grounded in control and game theory for modelling co-adaptation in closed‑loop neural interfaces, directly relevant to neural decoding, closed‑loop design and computational modelling of neural systems.
 
 <details>
 <summary>RSS summary</summary>
 
-<p>Scientific Data, Published online: 14 March 2026; <a href="https://www.nature.com/articles/s41597-026-07041-5">doi:10.1038/s41597-026-07041-5</a></p>A human EEG dataset to study cognitive flexibility during auditory discrimination under real-world distractors
+<p>Nature Machine Intelligence, Published online: 23 March 2026; <a href="https://www.nature.com/articles/s42256-026-01194-z">doi:10.1038/s42256-026-01194-z</a></p>Madduri et al. introduce a computational framework grounded in control and game theory to model co-adaptation between users and decoders in neural interfaces. This framework enables a principled design of closed-loop systems that improve usability and personalization.
 
 </details>
 
 ---
 
-## [Live imaging of neuronal dynamics in transparent mouse brains](https://www.nature.com/articles/s41592-026-03022-z)
-*Nature Methods*  
-Score: **0.95**  
-Published: 2026-03-12T00:00:00+00:00
-Tags: methods, imaging, neuronal dynamics
-
-Describes an isotonic, minimally invasive clearing medium (SeeDB-Live) that enables deep-tissue live imaging and thus directly facilitates measurement of neuronal dynamics in mammalian tissue ex vivo.
-
-<details>
-<summary>RSS summary</summary>
-
-<p>Nature Methods, Published online: 12 March 2026; <a href="https://www.nature.com/articles/s41592-026-03035-8">doi:10.1038/s41592-026-03035-8</a></p>Annevo uses deep learning to achieve unprecedented accuracy in eukaryotic gene annotation, approaching the performance of evidence-based methods.
-
-</details>
-
----
-
-## [Sleep deprivation exhibits an age-dependent effect on infraslow global brain activity](https://www.pnas.org/doi/abs/10.1073/pnas.2528913123?af=R)
+## [Hierarchical whole-brain modeling of critical synchronization dynamics in the human brain](https://www.pnas.org/doi/abs/10.1073/pnas.2505768123?af=R)
 *PNAS*  
 Score: **0.95**  
-Published: 2026-03-10T07:00:00+00:00
-Tags: infraslow, timescales, sleep, neural-dynamics
+Published: 2026-03-17T07:00:00+00:00
+Tags: modeling, synchronization, Kuramoto, oscillations, computational
 
-The study explicitly targets infraslow (<0.1 Hz) global brain activity and its modulation by sleep deprivation and aging, directly relevant to neuronal timescales and very slow physiological dynamics. Findings tie slow fluctuations to sleep-dependent clearance and ageing, which aligns with interests in slow/aperiodic neural processes and physiological signal processing.
+Presents a Hierarchical Kuramoto model that links hierarchical network architecture to measurable scale-free synchronization dynamics, directly relevant to computational modeling of brain oscillations and critical dynamics.
 
 <details>
 <summary>RSS summary</summary>
 
-Proceedings of the National Academy of Sciences, Volume 123, Issue 11, March 2026. <br />SignificanceResting-state infraslow (&lt;0.1 Hz) global brain activity has recently been linked to aging and Alzheimer’s disease (AD), possibly due to its potential role in sleep-dependent clearance of brain metabolic wastes. We show that total sleep ...
+Proceedings of the National Academy of Sciences, Volume 123, Issue 12, March 2026. <br />SignificanceNested neuronal networks exhibit scale-free activity in vivo, but there is a shortage of mechanistic models linking such hierarchical architectures with measurable dynamics. We advance here a Hierarchical Kuramoto model that directly links ...
 
 </details>
 
 ---
 
-## [Connectome-seq: high-throughput mapping of neuronal connectivity at single-synapse resolution via barcode sequencing](https://www.nature.com/articles/s41592-026-03026-9)
-*Nature Methods*  
+## [Sleep alters neurovascular and hydrodynamic coupling in the human brain](https://www.pnas.org/doi/abs/10.1073/pnas.2510731123?af=R)
+*PNAS*  
 Score: **0.92**  
-Published: 2026-03-12T00:00:00+00:00
-Tags: connectomics, methods, single-synapse
+Published: 2026-03-18T07:00:00+00:00
+Tags: infraslow, timescales, neurovascular, physiology, oscillations
 
-Presents a high-throughput method to obtain connectomic and transcriptomic information at single-synapse resolution using RNA barcoding, which is directly relevant to large-scale neuronal connectivity and data-driven neural analyses.
+Reports reorganization of the infraslow (<0.1 Hz) oscillation hierarchy and changes in neurovascular coupling across sleep–wake states, which is directly relevant to timescales and physiological signal processing.
 
 <details>
 <summary>RSS summary</summary>
 
-<p>Nature Methods, Published online: 12 March 2026; <a href="https://www.nature.com/articles/s41592-026-03026-9">doi:10.1038/s41592-026-03026-9</a></p>Connectome-seq allows access to connectomic and transcriptomic information in high throughput, using an RNA barcoding strategy and isolation of synaptosomes, followed by single-nucleus and single-synaptosome RNA sequencing.
+Proceedings of the National Academy of Sciences, Volume 123, Issue 12, March 2026. <br />SignificanceBeyond its well-known effects on neuronal activity, human sleep appears also to reorganize the infraslow (&lt;0.1 Hz) oscillation hierarchy in brain. While wakefulness is dominated by unidirectional neurovascular coupling, in which neural ...
 
 </details>
 
 ---
 
-## [Personalized functional topography–based multisite brain age prediction modeling reveals divergent neurodevelopment in major depression](https://www.pnas.org/doi/abs/10.1073/pnas.2519586123?af=R)
-*PNAS*  
-Score: **0.88**  
-Published: 2026-03-11T07:00:00+00:00
-Tags: computational, brain-age, functional topography
-
-Uses personalized functional topography and multisite modeling for brain-age prediction in MDD, indicating a strong computational and data-science approach to functional neuroimaging and developmental timescales.
-
-<details>
-<summary>RSS summary</summary>
-
-Proceedings of the National Academy of Sciences, Volume 123, Issue 11, March 2026. <br />SignificanceMajor depressive disorder (MDD), with an onset from adolescence through adulthood, involves disruptions in the brain network with substantial neurobiological heterogeneity. However, the divergent atypical neurodevelopment patterns in MDD ...
-
-</details>
-
----
-
-## [Tsunamis hiding in plain sight: spreading depression in clinical neurology](https://www.nature.com/articles/s41582-026-01191-1)
-*Nature Rev Neurol*  
-Score: **0.88**  
-Published: 2026-03-11T00:00:00+00:00
-Tags: spreading-depression, slow-waves, neural-dynamics, clinical
-
-Spreading depression is a propagating wave of mass depolarization with slow spatiotemporal dynamics; the review focuses on its physiology and clinical manifestations, making it highly relevant to slow neural propagation and large-scale neural dynamics. This connects to interests in cross-scale electrophysiology and neural timescales.
-
-<details>
-<summary>RSS summary</summary>
-
-<p>Nature Reviews Neurology, Published online: 11 March 2026; <a href="https://www.nature.com/articles/s41582-026-01191-1">doi:10.1038/s41582-026-01191-1</a></p>Spreading depression is a slowly propagating wave of mass depolarization that successively engulfs contiguous brain regions, causing transient neuronal hyperexcitability at its leading edge, followed by complete but reversible neuronal silence lasting minutes. Here, the authors present an evidence-based view of spreading depression as a …
-
-</details>
-
----
-
-## [Online supervised learning of temporal patterns in biological neural networks under feedback control](https://www.pnas.org/doi/abs/10.1073/pnas.2521560123?af=R)
+## [Autogenic spinal excitatory circuit ensures skilled hand movements in primates](https://www.pnas.org/doi/abs/10.1073/pnas.2525051123?af=R)
 *PNAS*  
 Score: **0.85**  
-Published: 2026-03-12T07:00:00+00:00
-Tags: computational, temporal patterns, learning, neural dynamics, reservoir computing
+Published: 2026-03-19T07:00:00+00:00
+Tags: primate, spinal, motor, electrophysiology, cross-species
 
-Addresses online learning of temporal patterns in biological neural networks and references reservoir computing, aligning with interests in temporal dynamics, computational models, and neural time-series learning.
+The title and summary indicate an in vivo study of a spinal excitatory circuit supporting primate skilled hand movements, implying circuit-level and likely electrophysiological data relevant to cross-species neural dynamics and motor control.
 
 <details>
 <summary>RSS summary</summary>
 
-Proceedings of the National Academy of Sciences, Volume 123, Issue 11, March 2026. <br />SignificanceReservoir computing is a machine learning paradigm that exploits the transient dynamics of high-dimensional nonlinear systems. Although it was originally inspired by the mammalian brain and widely explored in physical systems, its ...
+Proceedings of the National Academy of Sciences, Volume 123, Issue 12, March 2026. <br />SignificanceSkilled hand movements are a hallmark of primate behavior and are usually attributed to cortical mechanisms. Yet the degree to which spinal circuits contribute directly to voluntary dexterity has remained unclear. By combining in vivo ...
 
 </details>
 
 ---
 
-## [Locus coeruleus–amygdala circuit disrupts prefrontal control to impair fear extinction](https://www.pnas.org/doi/abs/10.1073/pnas.2528250123?af=R)
-*PNAS*  
-Score: **0.82**  
-Published: 2026-03-11T07:00:00+00:00
-Tags: circuits, fear extinction, LC, amygdala
-
-Circuit-level study implicating the LC→amygdala pathway in disrupting prefrontal control and fear extinction, relevant to neural circuit dynamics and mechanisms of behavioral regulation.
-
-<details>
-<summary>RSS summary</summary>
-
-Proceedings of the National Academy of Sciences, Volume 123, Issue 11, March 2026. <br />SignificanceThe standard treatment for trauma-related disorders like posttraumatic stress disorder (PTSD) is exposure therapy, which relies on extinction learning. However, fear relapse after exposure therapy is common, especially under stress. Our study ...
-
-</details>
-
----
-
-## [A dataset of 120 GHz millimeter-wave radar vital signals with synchronized reference recordings](https://www.nature.com/articles/s41597-026-07016-6)
-*Scientific Data*  
-Score: **0.65**  
-Published: 2026-03-13T00:00:00+00:00
-Tags: physiological, radar, vital_signals, dataset, methods
-
-Provides synchronized vital-sign recordings from mm-wave radar, relevant for physiological signal-processing methods (heartbeat/respiration extraction) and method development for non-contact sensing.
-
-<details>
-<summary>RSS summary</summary>
-
-<p>Scientific Data, Published online: 13 March 2026; <a href="https://www.nature.com/articles/s41597-026-07016-6">doi:10.1038/s41597-026-07016-6</a></p>A dataset of 120 GHz millimeter-wave radar vital signals with synchronized reference recordings
-
-</details>
-
----
-
-## [BrainParc: unified lifespan brain parcellation from structural magnetic resonance images](https://www.nature.com/articles/s43588-026-00963-5)
-*Nature Comput Sci*  
-Score: **0.65**  
-Published: 2026-03-11T00:00:00+00:00
-Tags: MRI, parcellation, methods, computational-neuro
-
-This paper presents a unified computational framework for brain tissue segmentation and parcellation across the lifespan, a methods advance relevant to neuroimaging and large-scale data harmonization. While structural MRI-focused (not electrophysiology), the methodological emphasis on consistent parcellation across heterogeneous datasets is useful for cross-modal analyses and computational neuroscience.
-
-<details>
-<summary>RSS summary</summary>
-
-<p>Nature Computational Science, Published online: 11 March 2026; <a href="https://www.nature.com/articles/s43588-026-00963-5">doi:10.1038/s43588-026-00963-5</a></p>This study introduces a unified framework for brain MRI tissue segmentation and region parcellation across the lifespan, demonstrating robust and consistent performance across heterogeneous datasets using a single model.
-
-</details>
-
----
-
-## [Insulin resistance prediction from wearables and routine blood biomarkers](https://www.nature.com/articles/s41586-026-10179-2)
-*Nature*  
-Score: **0.60**  
-Published: 2026-03-16T00:00:00+00:00
-Tags: wearables, machine learning, physiological, time-series
-
-Uses machine learning on continuous wearable data combined with biomarkers; relevant to physiological time-series analysis and applied ML for health-signal interpretation (though not neural data).
-
-<details>
-<summary>RSS summary</summary>
-
-<p>Nature, Published online: 16 March 2026; <a href="https://www.nature.com/articles/s41586-026-10179-2">doi:10.1038/s41586-026-10179-2</a></p>A machine-learning model that integrates data from wearable devices (such as smartwatches) with blood biomarkers and demographic data can predict whether someone has insulin resistance, enabling timely lifestyle interventions to prevent progression to type 2 diabetes.
-
-</details>
-
----
-
-## [A benchmarking framework for embodied neuromorphic agents](https://www.nature.com/articles/s42256-026-01197-w)
+## [Interpretability and implicit model semantics in biomedicine and deep learning](https://www.nature.com/articles/s42256-026-01177-0)
 *Nature Machine Intell*  
-Score: **0.60**  
-Published: 2026-03-11T00:00:00+00:00
-Tags: neuromorphic, benchmarking, embodied, methods
+Score: **0.72**  
+Published: 2026-03-23T00:00:00+00:00
+Tags: ML interpretability, deep learning, biomedicine, methods
 
-The framework benchmarks neuromorphic controllers on embodied (soft-robotic) platforms, which is directly relevant to neuromorphic implementations of neural computation and hardware-in-the-loop studies. It advances tools for evaluating biologically inspired computation and could inform electrophysiology-inspired hardware research.
+Proposes a formal framework to analyse interpretability and model semantics in deep learning with biomedical examples, useful for interpreting ML models applied to neural/physiological data.
 
 <details>
 <summary>RSS summary</summary>
 
-<p>Nature Machine Intelligence, Published online: 11 March 2026; <a href="https://www.nature.com/articles/s42256-026-01197-w">doi:10.1038/s42256-026-01197-w</a></p>Combining soft robotics with neuromorphic engineering is a promising approach in embodied intelligence. Giulia d’Angelo et al. contribute to progress in this field by developing a framework for benchmarking neuromorphic controllers on soft robotic platforms.
+<p>Nature Machine Intelligence, Published online: 23 March 2026; <a href="https://www.nature.com/articles/s42256-026-01177-0">doi:10.1038/s42256-026-01177-0</a></p>We introduce a framework to analyse interpretability in deep learning, by drawing on a formal notion of model semantics from the philosophy of science. We argue that interpretability is only one aspect of a model’s semantics and illustrate our framework with examples from biomedicine.
 
 </details>
 
 ---
 
-## [Seal and sea lion brains have evolved to support volitional control of vocal behavior and learning](https://www.science.org/doi/abs/10.1126/science.adx9367?af=R)
+## [Hypothalamic clock governs circadian pain](https://www.science.org/doi/abs/10.1126/science.ady6455?af=R)
+*Science*  
+Score: **0.72**  
+Published: 2026-03-19T07:00:00+00:00
+Tags: hypothalamus, circadian, pain, timescales, neural circuits
+
+Title indicates a hypothalamic clock mechanism controlling circadian pain, which is directly relevant to neural circuit temporal dynamics and timescales of pain signaling.
+
+<details>
+<summary>RSS summary</summary>
+
+Science, Volume 391, Issue 6791, March 2026. <br />
+
+</details>
+
+---
+
+## [State-dependent spatial maps for navigation](https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(26)00023-9?rss=yes)
+*Trends Cogn Sci*  
+Score: **0.70**  
+Published: 2026-03-19T00:00:00+00:00
+Tags: navigation, entorhinal, hippocampus, remapping, states
+
+Review discusses state-dependent remapping in medial entorhinal cortex and hippocampus, linking behavioral/internal states to electrophysiological spatial map dynamics relevant to neural timescales and circuit mechanisms.
+
+<details>
+<summary>RSS summary</summary>
+
+Internal behavioral states influence many brain circuits, with well-known effects in sensory areas. Less is known about how these states shape downstream navigation circuits, such as the medial entorhinal cortex and hippocampus, which construct spatial maps from grid and place cells. Emerging evidence suggests that these maps can spontaneously switch (‘remap’) in stable environments and that remapping is linked to behavioral changes that are state related. We consider the circuit mechanisms unde…
+
+</details>
+
+---
+
+## [Overlapping currents can tune the deep brain](https://www.science.org/doi/abs/10.1126/science.aeh2953?af=R)
+*Science*  
+Score: **0.65**  
+Published: 2026-03-19T06:00:06+00:00
+Tags: deep brain, stimulation, methods, electrophysiology
+
+The title implies modulation of deep-brain activity via overlapping currents, suggesting neuromodulation/electrophysiological methods that could be relevant to physiological signal control and stimulation techniques.
+
+<details>
+<summary>RSS summary</summary>
+
+Science, Volume 391, Issue 6791, Page 1188-1189, March 2026. <br />
+
+</details>
+
+---
+
+## [Clarifying the conceptual dimensions of representation in neuroscience](https://www.nature.com/articles/s41583-026-01030-8)
+*Nature Rev Neurosci*  
+Score: **0.60**  
+Published: 2026-03-20T00:00:00+00:00
+Tags: representation, theory, information-theory, computational
+
+Develops a unified, information‑theoretic framework for different conceptual dimensions of representation in neuroscience, relevant to computational and theoretical analyses of neural signals.
+
+<details>
+<summary>RSS summary</summary>
+
+<p>Nature Reviews Neuroscience, Published online: 20 March 2026; <a href="https://www.nature.com/articles/s41583-026-01030-8">doi:10.1038/s41583-026-01030-8</a></p>Appeals to representation are widespread, despite neuroscientists’ uncertainty about what kind of findings count as evidence for such claims. In this Perspective, Pohl and colleagues develop a unified framework that distinguishes four conceptual dimensions relevant to representation, illustrating them in information-theoretic terms to…
+
+</details>
+
+---
+
+## [Myeloarchitecture, intra- and interhemispheric and thalamocortical connections of area 3b representing the teeth and tongue in galagos](https://www.pnas.org/doi/abs/10.1073/pnas.2533912123?af=R)
+*PNAS*  
+Score: **0.60**  
+Published: 2026-03-18T07:00:00+00:00
+Tags: cross-species, anatomy, connectivity, electrophysiology, comparative
+
+Cross-species anatomical and connectivity characterization in galagos provides comparative electrophysiology/structure context that can inform cross-species neural-dynamics and timescale studies.
+
+<details>
+<summary>RSS summary</summary>
+
+Proceedings of the National Academy of Sciences, Volume 123, Issue 12, March 2026. <br />SignificanceThis study characterizes the neuronal representations of the teeth and tongue, their relationship with myeloarchitecture, and their cortical and thalamic connections in area 3b of strepsirrhine galagos, with results closely resembling those of ...
+
+</details>
+
+---
+
+## [Electroacupuncture-based vagal stimulation attenuates epileptic seizures through a body–brain circuit](https://www.pnas.org/doi/abs/10.1073/pnas.2517600123?af=R)
+*PNAS*  
+Score: **0.60**  
+Published: 2026-03-17T07:00:00+00:00
+Tags: vagus, neuromodulation, epilepsy, circuit, stimulation
+
+Directly concerns vagal neuromodulation and seizure suppression via a body–brain circuit, which is relevant to neural stimulation and circuit-level interventions. The title implies physiological/neuronal mechanisms rather than purely clinical drug work.
+
+<details>
+<summary>RSS summary</summary>
+
+Proceedings of the National Academy of Sciences, Volume 123, Issue 12, March 2026. <br />SignificanceVagus nerve stimulation is an established therapy for refractory epilepsy but is constrained by its invasiveness. Here, we demonstrate that electroacupuncture at theDazhui(GV14) andYaoqi(EXB9) acupoints exhibits broad-spectrum antiseizure ...
+
+</details>
+
+---
+
+## [Spatial and morphological organization of mitochondria in neurons across a connectome](https://www.science.org/doi/abs/10.1126/science.ads6674?af=R)
 *Science*  
 Score: **0.55**  
-Published: 2026-03-12T06:00:03+00:00
-Tags: comparative, vocal learning, evolution
+Published: 2026-03-19T07:00:00+00:00
+Tags: mitochondria, connectome, neuronal physiology, microscopy
 
-Comparative neurobiology study on evolution of brain features supporting volitional vocal control and learning, relevant to cross-species neural specializations though methods aren’t specified in the TOC entry.
+Title indicates a large-scale mapping of mitochondrial organization across a neuronal connectome, which is relevant to neuronal physiology and network-level cell biology though not directly to time-series or spectral methods.
 
 <details>
 <summary>RSS summary</summary>
 
-Science, Volume 391, Issue 6790, Page 1146-1150, March 2026. <br />
+Science, Volume 391, Issue 6791, March 2026. <br />
 
 </details>
 
 ---
 
-## [China approves brain chip to treat paralysis — a world first](https://www.nature.com/articles/d41586-026-00849-6)
-*Nature*  
-Score: **0.50**  
-Published: 2026-03-16T00:00:00+00:00
-Tags: BCI, electrophysiology, neural decoding, neurotechnology
-
-Reports a brain–computer-interface that enables control of a robotic hand, relevant to electrophysiology, neural interfacing, and applied neural-signal decoding methods.
-
-<details>
-<summary>RSS summary</summary>
-
-<p>Nature, Published online: 16 March 2026; <a href="https://www.nature.com/articles/d41586-026-00849-6">doi:10.1038/d41586-026-00849-6</a></p>Chip allows people with paralysis to control a soft robotic hand.
-
-</details>
-
----
-
-## [Toward embodied, ecological cognition with ambulatory virtual reality](https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(26)00020-3?rss=yes)
-*Trends Cogn Sci*  
+## [Identification of somatostatin+ inhibitory engrams for extinction in the basolateral amygdala](https://www.pnas.org/doi/abs/10.1073/pnas.2511528123?af=R)
+*PNAS*  
 Score: **0.45**  
-Published: 2026-03-11T00:00:00+00:00
-Tags: VR, ambulatory, methods, ecological
+Published: 2026-03-20T07:00:00+00:00
+Tags: electrophysiology, amygdala, inhibition, engram
 
-Ambulatory VR supports naturalistic movement and interactions and enables collection of behaviorally rich, ecologically valid datasets—an enabling method for combining neural/physiological signals with naturalistic tasks. Relevant for labs interested in ambulatory measurement and multimodal signal integration.
+Provides causal evidence about inhibition of extinction‑tagged GABAergic cells in the basolateral amygdala, a neural‑dynamics and electrophysiology‑oriented study of memory circuits.
 
 <details>
 <summary>RSS summary</summary>
 
-Virtual reality (VR) is a powerful tool for bridging ecological validity and experimental control in cognitive science. VR techniques enable more naturalistic behavior and offer value for assessment and rehabilitation in aging and clinical populations. In this review, we describe how emerging ambulatory VR approaches that support more naturalistic movements, actions, and interactions within immersive environments offer important advances for studying cognition and neural systems in ecologically …
+Proceedings of the National Academy of Sciences, Volume 123, Issue 12, March 2026. <br />SignificanceWhile inhibitory engrams have been previously hypothesized, the current study provides causal evidence that inhibition of extinction-tagged GABAergic cells in the basolateral amygdala (BLA) impairs recall of the extinction memory, resulting in ...
 
 </details>
 
 ---
 
-## [Briefing chat: ‘Can it run Doom?’ — why scientists got brain cells and a satellite to play the classic game](https://www.nature.com/articles/d41586-026-00845-w)
+## [Integrated photonic neural network with on-chip backpropagation training](https://www.nature.com/articles/s41586-026-10262-8)
 *Nature*  
-Score: **0.38**  
-Published: 2026-03-13T00:00:00+00:00
-Tags: in vitro neurons, unconventional computing, dynamics
+Score: **0.45**  
+Published: 2026-03-18T00:00:00+00:00
+Tags: computational, hardware, deep learning, methods, photonic
 
-Describes experiments running the game Doom on unconventional biological/physical systems (including neurons), of potential interest for neural-culture dynamical studies and unconventional computing.
+Demonstrates end-to-end on-chip gradient-descent training in an integrated photonic deep neural network, of interest for computational approaches and hardware-accelerated modeling of neural data.
 
 <details>
 <summary>RSS summary</summary>
 
-<p>Nature, Published online: 13 March 2026; <a href="https://www.nature.com/articles/d41586-026-00845-w">doi:10.1038/d41586-026-00845-w</a></p>Nature staff discuss some of the week's top science news.
+<p>Nature, Published online: 18 March 2026; <a href="https://www.nature.com/articles/s41586-026-10262-8">doi:10.1038/s41586-026-10262-8</a></p>An integrated photonic deep neural network was trained end-to-end with on-chip gradient-descent backpropagation, and all linear and nonlinear computations were performed on a single photonic chip, resulting in a reliable performance despite on-chip errors and variations.
 
 </details>
 
 ---
 
-## [Long-lived retinal ganglion cells](https://www.nature.com/articles/s41592-026-03038-5)
+## [Open and sustainable AI: challenges, opportunities and the road ahead in the life sciences](https://www.nature.com/articles/s41592-026-03037-6)
 *Nature Methods*  
 Score: **0.35**  
-Published: 2026-03-12T00:00:00+00:00
-Tags: retina, neurons, cellular
+Published: 2026-03-20T00:00:00+00:00
+Tags: AI, open science, reproducibility, methods
 
-Focuses on retinal ganglion cells with extended longevity; relevant to cellular neuroscience and potential long-term dynamics but less directly tied to population electrophysiology or time-series methods.
+Perspective on open and sustainable AI resources and recommendations in the life sciences, relevant to reproducible ML workflows for neural/physiological data analysis.
 
 <details>
 <summary>RSS summary</summary>
 
-<p>Nature Methods, Published online: 12 March 2026; <a href="https://www.nature.com/articles/s41592-026-03038-5">doi:10.1038/s41592-026-03038-5</a></p>Long-lived retinal ganglion cells
+<p>Nature Methods, Published online: 20 March 2026; <a href="https://www.nature.com/articles/s41592-026-03037-6">doi:10.1038/s41592-026-03037-6</a></p>This Perspective provides recommendations for open and sustainable AI and associated resources facilitating exploration and implementation.
+
+</details>
+
+---
+
+## [From chronic pain to depression: Neurogenesis-driven microglial remodeling in the hippocampal dentate gyrus](https://www.science.org/doi/abs/10.1126/science.aeb2095?af=R)
+*Science*  
+Score: **0.35**  
+Published: 2026-03-19T07:00:00+00:00
+Tags: microglia, neurogenesis, hippocampus, pain
+
+The title links chronic pain and depression via neurogenesis-driven microglial remodeling in hippocampus—important mechanistic neuroscience but primarily cellular/neuroimmune rather than electrophysiology or computational methods.
+
+<details>
+<summary>RSS summary</summary>
+
+Science, Volume 391, Issue 6791, March 2026. <br />
 
 </details>
 
