@@ -1,245 +1,211 @@
-# Weekly ToC Digest (week of 2026-03-30)
+# Weekly ToC Digest (week of 2026-04-06)
 
-Selected items prioritized for computational methods, time-series/dynamical modeling, electrophysiology and cross‑species work. fMRI-only or primarily clinical/biological items were downweighted per your triage preferences. Mostly molecular, ecological and general-science items this week. Highlighted the few papers with direct relevance to neuroscience methods, probes, or synaptic/physiological mechanisms. Prioritized items that match interests in neural timescales, cross-species electrophysiology, neural dynamics and computational comparisons. Prioritized computational and electrophysiology-relevant papers (efficient coding, in vitro neural dynamics); heavily downweighted cell/molecular and clinical cardiology content.
+Selected items prioritized for physiological-signal and methods relevance (datasets, signal-processing, computational restoration, and temporal/oscillatory behavior). Focused on papers relevant to electrophysiology, neural time-series methods, oscillations/aperiodic dynamics, neuronal timescales, cross‑species ECoG/laminar work, and brain–heart/physiological signal processing. Prioritized items that involve electrophysiology, neural signal biophysics, and scalable neuroscience methods (spectral/temporal dynamics, cross-species neural recordings, and mapping methods). Down-weighted molecular, clinical, and purely behavioral/social studies unless they include neural recordings or clear methodological relevance.
 
-**Included:** 14 (score ≥ 0.35)  
-**Scored:** 17 total items
+**Included:** 12 (score ≥ 0.35)  
+**Scored:** 16 total items
 
 ---
 
-## [Dynamical modeling of individual sensory reactivity and habituation learning](https://www.pnas.org/doi/abs/10.1073/pnas.2524738123?af=R)
+## [Distinct laminar origins of sensory-evoked high-gamma and low-frequency ECoG signals revealed by optogenetics](https://www.pnas.org/doi/abs/10.1073/pnas.2516293123?af=R)
 *PNAS*  
 Score: **0.95**  
-Published: 2026-03-27T07:00:00+00:00
-Tags: dynamical-modeling, computational, habituation, time-series, methods
+Published: 2026-04-01T07:00:00+00:00
+Tags: ECoG, electrophysiology, laminar, high-gamma, low-frequency, methods
 
-Paper explicitly uses dynamical modeling to capture individual sensory reactivity and habituation, directly aligned with computational models of neural dynamics and time-series analysis.
+Title and summary explicitly address ECoG, laminar origins, and separation of high‑gamma vs low‑frequency signals—directly relevant to cross‑scale electrophysiology, spectral components, and neural dynamics methods.
 
 <details>
 <summary>RSS summary</summary>
 
-Proceedings of the National Academy of Sciences, Volume 123, Issue 13, March 2026. <br />SignificanceHow organisms process sensory information to generate behavior is typically studied by averaging and comparing group means. Although useful to understand general principles, such studies “average out” potentially meaningful differences between ...
+Proceedings of the National Academy of Sciences, Volume 123, Issue 14, April 2026. <br />SignificanceElectrocorticography (ECoG) is a widely used measure of cortical activity in humans and animals, providing a unique methodological bridge from basic neuroscience discovery to understanding the human brain in health and disease. However, the ...
 
 </details>
 
 ---
 
-## [Coupled neural timescales in social interaction](https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(26)00035-5?rss=yes)
-*Trends Cogn Sci*  
-Score: **0.95**  
-Published: 2026-03-25T00:00:00+00:00
-Tags: timescales, intrinsic timescales, social interaction, review
-
-Review explicitly focuses on intrinsic neural timescales (INTs) and a cortical hierarchy for multiscale temporal processing, directly matching your interest in neuronal timescales and temporal integration mechanisms.
-
-<details>
-<summary>RSS summary</summary>
-
-Social interactions require integrating information across multiple timescales, yet the underlying mechanisms remain unclear. We review evidence suggesting that intrinsic neural timescales (INTs) may be a key mechanism enabling this integration, with the right temporoparietal junction (rTPJ) serving as a critical hub during social interactions. INTs form a cortical hierarchy for multiscale temporal processing, and differences in this hierarchy are linked to social impairments across neuropsychia…
-
-</details>
-
----
-
-## [Rapid concerted switching of the neural code in the inferotemporal cortex](https://www.nature.com/articles/s41586-026-10267-3)
+## [Active dissociation of intracortical spiking and high gamma activity](https://www.nature.com/articles/s41586-026-10331-y)
 *Nature*  
+Score: **0.95**  
+Published: 2026-04-01T00:00:00+00:00
+Tags: electrophysiology, high-gamma, BMIs, neural dynamics
+
+Uses a brain–machine interface in monkeys to investigate the biophysical relationship between intracortical spiking and cortical high-gamma activity, directly addressing neural signal origins and electrophysiological dynamics.
+
+<details>
+<summary>RSS summary</summary>
+
+<p>Nature, Published online: 01 April 2026; <a href="https://www.nature.com/articles/s41586-026-10331-y">doi:10.1038/s41586-026-10331-y</a></p>A brain–machine interface is used in monkeys to investigate the biophysical underpinnings of cortical high gamma-band activity, a signal that is often studied in the context of many brain functions.
+
+</details>
+
+---
+
+## [An emotion recognition dataset using millimeter wave radar and physiological reference signals](https://www.nature.com/articles/s41597-026-07159-6)
+*Scientific Data*  
 Score: **0.90**  
-Published: 2026-03-25T00:00:00+00:00
-Tags: electrophysiology, primate, neural dynamics, coding
+Published: 2026-04-06T00:00:00+00:00
+Tags: dataset, physiological, radar, methods, signal-processing
 
-Primate inferotemporal cortex study reports rapid switching of neural coding in macaque face cells, aligning with interest in cross-species electrophysiology and fast neural dynamics.
+The dataset explicitly pairs millimeter-wave radar with physiological reference signals, making it directly useful for physiological signal-processing, multimodal inference, and method development. Datasets of this type are high priority for work on physiological time-series and cross-modal signal fusion.
 
 <details>
 <summary>RSS summary</summary>
 
-<p>Nature, Published online: 25 March 2026; <a href="https://www.nature.com/articles/s41586-026-10267-3">doi:10.1038/s41586-026-10267-3</a></p>Face cells in the macaque inferotemporal cortex are initially able to detect faces and then rapidly switch to a face-specific neural code to discriminate between different face identities.
+<p>Scientific Data, Published online: 06 April 2026; <a href="https://www.nature.com/articles/s41597-026-07159-6">doi:10.1038/s41597-026-07159-6</a></p>An emotion recognition dataset using millimeter wave radar and physiological reference signals
 
 </details>
 
 ---
 
-## [Voice information processing by the primate brain](https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(26)00030-6?rss=yes)
-*Trends Cogn Sci*  
-Score: **0.88**  
-Published: 2026-03-27T00:00:00+00:00
-Tags: intracranial, electrophysiology, cross-species, auditory, neural-dynamics
-
-Review integrates intracranial recordings and comparative primate data, combining electrophysiology and cross‑species perspectives relevant to neural signal processing and dynamics.
-
-<details>
-<summary>RSS summary</summary>
-
-Voices are among the most socially informative sounds in our auditory landscape, but only recently has a coherent picture of the neural machinery supporting their perception begun to emerge. New evidence from intracranial recordings, fMRI, and comparative primate research reveals specialized voice patches and neural pathways for rapid parallel extraction of identity, emotion, and social cues. These findings point to an evolutionarily conserved system with striking parallels to face processing. E…
-
-</details>
-
----
-
-## [Convergent motifs of early olfactory processing are recapitulated by layer-wise efficient coding](https://www.pnas.org/doi/abs/10.1073/pnas.2524661123?af=R)
-*PNAS*  
-Score: **0.86**  
-Published: 2026-03-24T07:00:00+00:00
-Tags: computational, olfaction, efficient coding, sensory, modeling
-
-The title and summary indicate a computational model (layer-wise efficient coding) that reproduces neural motifs in olfactory processing, directly relevant to computational neuroscience and sensory coding methods.
-
-<details>
-<summary>RSS summary</summary>
-
-Proceedings of the National Academy of Sciences, Volume 123, Issue 13, March 2026. <br />SignificanceAnimals from insects to rodents rely on smell as their primary means of sensing their environment. Strikingly, animals as different as ants and humans have convergently evolved similar sensory architectures to solve the common problem of ...
-
-</details>
-
----
-
-## [Looking inside and beyond eye fixations in reading](https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(26)00034-3?rss=yes)
-*Trends Cogn Sci*  
-Score: **0.82**  
-Published: 2026-03-27T00:00:00+00:00
-Tags: co-registration, time-series, methods, reading, behavior-neural
-
-Discusses co‑registration of neural and behavioral measures and temporal coupling beyond single fixations, highlighting methods for aligned time-series analysis in naturalistic tasks.
-
-<details>
-<summary>RSS summary</summary>
-
-Co-registration of neural and behavioral measures is key in developing a holistic understanding of reading. However, researchers must study not only neural effects inside fixations, early enough to initiate saccade decisions, but also later effects that are linguistically driven. Furthermore, researchers must not only use co-registration to allow for naturalistic reading but also to look beyond individual fixations to examine the coupling between temporally extended neural language processing an…
-
-</details>
-
----
-
-## [Reverse predictivity for bidirectional comparison of neural networks and biological brains](https://www.nature.com/articles/s42256-026-01204-0)
-*Nature Machine Intell*  
-Score: **0.82**  
-Published: 2026-03-25T00:00:00+00:00
-Tags: computational, ANN, brain–model comparison, methods
-
-Presents a computational method (reverse predictivity) comparing ANN units to primate brain responses, which is relevant to computational neuroscience and cross-system model–brain alignment.
-
-<details>
-<summary>RSS summary</summary>
-
-<p>Nature Machine Intelligence, Published online: 25 March 2026; <a href="https://www.nature.com/articles/s42256-026-01204-0">doi:10.1038/s42256-026-01204-0</a></p>Muzellec and Kar use reverse predictivity to show that only a subset of artificial neural network (ANN) units align with primate brain responses. This reveals a substantial misalignment between ANNs and brains compared with the strong bidirectional alignment observed between two primate brains.
-
-</details>
-
----
-
-## [Ultrasensitive measurement of brain penetration mechanics and blood vessel rupture with microscale probes](https://www.pnas.org/doi/abs/10.1073/pnas.2529147123?af=R)
-*PNAS*  
+## [Synaptic connectomics by sequencing](https://www.nature.com/articles/s41592-026-03052-7)
+*Nature Methods*  
 Score: **0.80**  
-Published: 2026-03-26T07:00:00+00:00
-Tags: neural-probes, methods, microscale, mechanics, microscopy
+Published: 2026-04-01T00:00:00+00:00
+Tags: connectomics, methods, sequencing, mapping
 
-Describes a high-sensitivity force sensor integrated with real-time microscopy to quantify how microscale neural probes penetrate brain tissue and cause vessel rupture, which is directly relevant to neural-interface methods and probe design. The focus on measurement technology and mechanics makes it useful for researchers working on implantable electrophysiology tools.
+Introduces a sequencing-based, barcode-pairing method to map synaptic connectivity that scales toward comprehensive brain connectivity maps, offering a novel high-throughput connectomics technique.
 
 <details>
 <summary>RSS summary</summary>
 
-Proceedings of the National Academy of Sciences, Volume 123, Issue 13, March 2026. <br />SignificanceMicroscale neural probes are central to next-generation brain–machine interfaces, yet how they physically penetrate the living brain remains poorly quantified. Using a high-sensitivity force sensor integrated with real-time microscopy, we ...
+<p>Nature Methods, Published online: 01 April 2026; <a href="https://www.nature.com/articles/s41592-026-03052-7">doi:10.1038/s41592-026-03052-7</a></p>A new sequencing-based method optimizes barcode-based synaptic mapping by capturing paired neuronal barcodes from intact synaptic fragments, achieving the efficiency needed to scale toward comprehensive brain connectivity maps.
 
 </details>
 
 ---
 
-## [Biologically grounded on-chip model identifies selective topographic reorganization within hyperexcitable corticostriatal networks](https://www.pnas.org/doi/abs/10.1073/pnas.2513459123?af=R)
-*PNAS*  
-Score: **0.72**  
-Published: 2026-03-24T07:00:00+00:00
-Tags: brain-on-chip, corticostriatal, hyperexcitability, in vitro, neural dynamics
+## [Bidirectional brain–heart interactions in health and disease](https://www.nature.com/articles/s41582-025-01180-w)
+*Nature Rev Neurol*  
+Score: **0.78**  
+Published: 2026-04-02T00:00:00+00:00
+Tags: brain–heart, ECG, physiology, review, systems
 
-A brain-on-chip study of hyperexcitable corticostriatal networks likely involves in vitro electrophysiological dynamics and network reorganization methods, aligning with interests in cross-species/electrophysiology and neural time-series methods.
+Review explicitly focuses on reciprocal brain–heart interactions and discusses clinical conditions where these interactions are prominent, aligning with physiological signal processing (ECG) and brain–body dynamics.
 
 <details>
 <summary>RSS summary</summary>
 
-Proceedings of the National Academy of Sciences, Volume 123, Issue 13, March 2026. <br />SignificanceTopographic wiring is fundamental to brain function, yet how such spatial precision emerges during development remains unclear, especially in the striatum, which lacks clear anatomical boundaries. Using a biologically grounded brain-on-chip ...
+<p>Nature Reviews Neurology, Published online: 02 April 2026; <a href="https://www.nature.com/articles/s41582-025-01180-w">doi:10.1038/s41582-025-01180-w</a></p>This Review explores how reciprocal brain–heart interactions can cause dysfunction in one of these organs to adversely affect the other. The authors discuss clinical conditions, such as Takotsubo syndrome and stroke–heart syndrome, in which these interactions are particularly prominent and address sex and gender differences in brain–hear…
 
 </details>
 
 ---
 
-## [Correspondence of large-scale functional brain network decline across aging mice and humans](https://www.pnas.org/doi/abs/10.1073/pnas.2527522123?af=R)
-*PNAS*  
-Score: **0.64**  
-Published: 2026-03-27T07:00:00+00:00
-Tags: cross-species, fMRI, aging, network-analysis
+## [Opportunities and pitfalls of data contextualization in neuroimaging](https://www.nature.com/articles/s41583-026-01038-0)
+*Nature Rev Neurosci*  
+Score: **0.70**  
+Published: 2026-04-02T00:00:00+00:00
+Tags: neuroimaging, methods, analysis, data-science, review
 
-Cross‑species comparison of large-scale brain network decline is directly relevant to cross-species neuroscience, but the study uses fMRI (downweighted relative to electrophysiology/methods-focused work).
+Roadmap discusses practical guidelines at study design and analysis pipeline levels for contextualizing brain maps, relevant to data‑science aspects of neuroimaging and methodological rigor.
 
 <details>
 <summary>RSS summary</summary>
 
-Proceedings of the National Academy of Sciences, Volume 123, Issue 13, March 2026. <br />SignificanceHuman aging is accompanied by changes in large-scale functional brain network organization, which have important consequences for cognition and brain disease. Using awake functional MRI data acquired in mice across a range of adulthood, we ...
+<p>Nature Reviews Neuroscience, Published online: 02 April 2026; <a href="https://www.nature.com/articles/s41583-026-01038-0">doi:10.1038/s41583-026-01038-0</a></p>Despite rapid exploitation of the opportunities that contextualization of brain maps affords, potential limitations have received little attention. In this Roadmap, Royer et al. provide practical guidelines operating at the level of study design, analysis pipelines and interpretation of findings to encourage the development of best pr…
 
 </details>
 
 ---
 
-## [Functional hierarchy of the human neocortex across the lifespan](https://www.nature.com/articles/s41586-026-10219-x)
+## [The Global Neuronal Workspace as a multilevel model of conscious processing](https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(26)00054-9?rss=yes)
+*Trends Cogn Sci*  
+Score: **0.60**  
+Published: 2026-04-01T00:00:00+00:00
+Tags: theory, network dynamics, consciousness, multilevel
+
+Summarizes GNW emphasizing multilevel architecture from cellular/molecular mechanisms to large-scale network dynamics, relevant for researchers interested in linking cellular physiology to network-level computation.
+
+<details>
+<summary>RSS summary</summary>
+
+Debates in consciousness science increasingly question whether computational functionalism is sufficient to explain conscious processing. We summarize three core features of the Global Neuronal Workspace (GNW) theory that highlight the multilevel architecture of conscious processing, extending from cellular and molecular mechanisms to large-scale network dynamics. On this interpretation, GNW is not a functionalist computational theory, unlike the Global Workspace theory, with which it is frequen…
+
+</details>
+
+---
+
+## [Deconstruction of a spino-brain–spinal cord circuit that drives chronic pain](https://www.nature.com/articles/s41586-026-10296-y)
 *Nature*  
 Score: **0.55**  
-Published: 2026-03-25T00:00:00+00:00
-Tags: fMRI, functional hierarchy, lifespan
+Published: 2026-04-01T00:00:00+00:00
+Tags: spinal cord, circuits, mouse, electrophysiology
 
-Large-scale fMRI mapping across ages addresses cortical organizational axes over the lifespan; useful for hierarchical and timescale hypotheses but downweighted because it appears fMRI-only.
+Dissects a mouse circuit connecting spinal cord and brain regions (centred on spinal-projecting neurons in the rostral ventromedial medulla) that drives chronic pain, relevant for circuit-level electrophysiology and neural dynamics.
 
 <details>
 <summary>RSS summary</summary>
 
-<p>Nature, Published online: 25 March 2026; <a href="https://www.nature.com/articles/s41586-026-10219-x">doi:10.1038/s41586-026-10219-x</a></p>fMRI data from individuals of a wide range of ages (from a few days to 100 years old) are used to map the key organizational axes of functional connectivity in the human cortex throughout the lifespan.
+<p>Nature, Published online: 01 April 2026; <a href="https://www.nature.com/articles/s41586-026-10296-y">doi:10.1038/s41586-026-10296-y</a></p>In mice, a circuit between the spinal cord and various regions of the brain, centring on spinal-cord-projecting neurons in the rostral ventromedial medulla, has a key role in driving chronic pain.
 
 </details>
 
 ---
 
-## [A dataset of insect sounds from 459 species for bioacoustic machine learning](https://www.nature.com/articles/s41597-026-07123-4)
-*Scientific Data*  
-Score: **0.50**  
-Published: 2026-03-27T00:00:00+00:00
-Tags: dataset, bioacoustics, machine-learning, signal-processing
-
-Large labelled acoustic dataset supports machine‑learning and signal‑processing method development for physiological and bioacoustic time-series, useful for algorithm testing though not neural data per se.
-
-<details>
-<summary>RSS summary</summary>
-
-<p>Scientific Data, Published online: 27 March 2026; <a href="https://www.nature.com/articles/s41597-026-07123-4">doi:10.1038/s41597-026-07123-4</a></p>A dataset of insect sounds from 459 species for bioacoustic machine learning
-
-</details>
-
----
-
-## [Neural signatures of human psychological resilience driven by acute stress](https://www.pnas.org/doi/abs/10.1073/pnas.2524075123?af=R)
-*PNAS*  
-Score: **0.50**  
-Published: 2026-03-25T07:00:00+00:00
-Tags: neural markers, stress, resilience
-
-Reports delayed-emerging neural markers of resilience after acute stress, which may be relevant if methods include physiological time-series or computational analyses; modality not specified in summary so scored conservatively.
-
-<details>
-<summary>RSS summary</summary>
-
-Proceedings of the National Academy of Sciences, Volume 123, Issue 13, March 2026. <br />SignificanceHuman resilience to stress extends beyond basic physiological responses, engaging higher-order processes such as self-confidence and positive attitudes. This study demonstrates that neural markers of resilience emerge more than 60 min after ...
-
-</details>
-
----
-
-## [Thalamic activation of the visual cortex at the single-synapse level](https://www.science.org/doi/abs/10.1126/science.aec9923?af=R)
-*Science*  
+## [Universal restoration of medical images](https://www.nature.com/articles/s43588-026-00975-1)
+*Nature Comput Sci*  
 Score: **0.45**  
-Published: 2026-03-26T06:00:07+00:00
-Tags: synapse, visual-cortex, electrophysiology, circuit
+Published: 2026-04-03T00:00:00+00:00
+Tags: methods, self-supervised, denoising, medical-imaging
 
-Reports thalamic activation of visual cortex examined at the single-synapse level, indicating high-resolution synaptic/neurophysiological investigation relevant to circuit-level electrophysiology. While not explicitly a methods paper for time-series analysis, the single-synapse focus is of interest for cellular electrophysiology and circuit dynamics.
+Presents a self-supervised foundation model (HorusEye) that learns realistic noise for robust restoration across modalities, which is relevant if you leverage self-supervised/denoising approaches for physiological or neural data. The methods focus on learning noise models and restoration applicable beyond imaging.
 
 <details>
 <summary>RSS summary</summary>
 
-Science, Volume 391, Issue 6792, Page 1349-1354, March 2026. <br />
+<p>Nature Computational Science, Published online: 03 April 2026; <a href="https://www.nature.com/articles/s43588-026-00975-1">doi:10.1038/s43588-026-00975-1</a></p>A self-supervised foundation model, HorusEye, learns realistic noise directly from X-ray scans and enables robust tomography restoration across diverse modalities, scanners, and tasks without clean training data.
+
+</details>
+
+---
+
+## [Musical neurodynamics and the ‘inner voice’](https://www.nature.com/articles/s41583-026-01041-5)
+*Nature Rev Neurosci*  
+Score: **0.45**  
+Published: 2026-04-02T00:00:00+00:00
+Tags: neurodynamics, oscillations, cognition, review
+
+Title indicates a focus on neurodynamics in the context of music and inner voice, which may touch on oscillatory dynamics and neural timing but appears more conceptual than methods‑focused.
+
+<details>
+<summary>RSS summary</summary>
+
+<p>Nature Reviews Neuroscience, Published online: 02 April 2026; <a href="https://www.nature.com/articles/s41583-026-01041-5">doi:10.1038/s41583-026-01041-5</a></p>Musical neurodynamics and the ‘inner voice’
+
+</details>
+
+---
+
+## [Dopaminergic mechanisms of dynamical social specialization](https://www.nature.com/articles/s41586-026-10301-4)
+*Nature*  
+Score: **0.45**  
+Published: 2026-04-01T00:00:00+00:00
+Tags: dopamine, mouse, longitudinal, neural activity
+
+Longitudinal mouse recordings link ventral tegmental dopaminergic activity to emergent social-role specialization, which could be of interest if it includes neural recording or dynamics analyses.
+
+<details>
+<summary>RSS summary</summary>
+
+<p>Nature, Published online: 01 April 2026; <a href="https://www.nature.com/articles/s41586-026-10301-4">doi:10.1038/s41586-026-10301-4</a></p>Longitudinal tracking of mice reveals that stable, specialized social roles emerge spontaneously within groups during a foraging task, with dopaminergic activity in the ventral tegmental area driving sex-divergent patterns of specialization.
+
+</details>
+
+---
+
+## [Neural circuits for decision-making based on pineal photoreception in zebrafish](https://www.pnas.org/doi/abs/10.1073/pnas.2520290123?af=R)
+*PNAS*  
+Score: **0.35**  
+Published: 2026-03-31T07:00:00+00:00
+Tags: zebrafish, circuits, sensory, cross-species
+
+Identifies the brain region processing pineal-derived light signals in zebrafish to study decision circuits, relevant to cross-species circuit mapping though mainly sensory/circuit-level rather than signal-processing methods.
+
+<details>
+<summary>RSS summary</summary>
+
+Proceedings of the National Academy of Sciences, Volume 123, Issue 14, April 2026. <br />SignificanceAlthough pineal light information has long been assumed to be transmitted to the brain, functional evidence has been lacking. To identify the brain region responsible for processing pineal-derived light signals, we exploited the distinct ...
 
 </details>
 
