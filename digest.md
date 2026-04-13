@@ -1,211 +1,279 @@
-# Weekly ToC Digest (week of 2026-04-06)
+# Weekly ToC Digest (week of 2026-04-13)
 
-Selected items prioritized for physiological-signal and methods relevance (datasets, signal-processing, computational restoration, and temporal/oscillatory behavior). Focused on papers relevant to electrophysiology, neural time-series methods, oscillations/aperiodic dynamics, neuronal timescales, cross‑species ECoG/laminar work, and brain–heart/physiological signal processing. Prioritized items that involve electrophysiology, neural signal biophysics, and scalable neuroscience methods (spectral/temporal dynamics, cross-species neural recordings, and mapping methods). Down-weighted molecular, clinical, and purely behavioral/social studies unless they include neural recordings or clear methodological relevance.
+Selected items prioritized for electrophysiology, physiological signals, datasets, BCI/neurofeedback, and neural-methods that enable better in vivo recordings. Top picks are two multimodal datasets and a BCI neurofeedback paper; microscopy methods and computational perspectives follow. Prioritized computational and methods papers (ML methods relevant to model calibration and computational neural coding); downweighted purely fMRI/behavioral or wet‑lab studies. Priority given to electrophysiology and computational/methods-relevant papers (single-unit primate work, modeling/foundation-model items, and voxelwise/Information-flow analyses). Downweighted fMRI-only, behavioral-only, molecular, and clinical-only papers. Most items are reviews in psychology, neurology, bioengineering and cardiology; few directly address electrophysiology, oscillations, or time‑series methods. I prioritized neuroimaging and cognition items that could inform neural-data study design, and down-weighted immunology/
 
-**Included:** 12 (score ≥ 0.35)  
-**Scored:** 16 total items
+**Included:** 16 (score ≥ 0.35)  
+**Scored:** 24 total items
 
 ---
 
-## [Distinct laminar origins of sensory-evoked high-gamma and low-frequency ECoG signals revealed by optogenetics](https://www.pnas.org/doi/abs/10.1073/pnas.2516293123?af=R)
+## [Multimodal EEG, ECG, and video dataset of yoga practitioners during concentration and mind-wandering tasks](https://www.nature.com/articles/s41597-026-07209-z)
+*Scientific Data*  
+Score: **0.95**  
+Published: 2026-04-10T00:00:00+00:00
+Tags: EEG, ECG, dataset, mind-wandering, timescales, physiological-signals
+
+Provides simultaneously recorded EEG and ECG during concentration vs mind-wandering — directly useful for analyses of oscillations, neuronal timescales, and physiological signal processing. Multimodal video annotation increases utility for state classification and cross-modal modelling.
+
+<details>
+<summary>RSS summary</summary>
+
+<p>Scientific Data, Published online: 10 April 2026; <a href="https://www.nature.com/articles/s41597-026-07209-z">doi:10.1038/s41597-026-07209-z</a></p>Multimodal EEG, ECG, and video dataset of yoga practitioners during concentration and mind-wandering tasks
+
+</details>
+
+---
+
+## [Dopamine D1 and D2 receptors differentially control strength and dynamics of abstract decision codes in the primate prefrontal cortex](https://www.pnas.org/doi/abs/10.1073/pnas.2600210123?af=R)
 *PNAS*  
 Score: **0.95**  
-Published: 2026-04-01T07:00:00+00:00
-Tags: ECoG, electrophysiology, laminar, high-gamma, low-frequency, methods
+Published: 2026-04-08T07:00:00+00:00
+Tags: electrophysiology, single-unit, dopamine, prefrontal-cortex, decision-making, primate
 
-Title and summary explicitly address ECoG, laminar origins, and separation of high‑gamma vs low‑frequency signals—directly relevant to cross‑scale electrophysiology, spectral components, and neural dynamics methods.
+Uses causal, receptor-specific manipulations combined with single-neuron recordings in behaving primates, directly relevant to electrophysiology and neural dynamics. Findings speak to neuromodulatory control of decision-related neural codes, aligning with interests in cross-species electrophysiology and neuronal dynamics.
 
 <details>
 <summary>RSS summary</summary>
 
-Proceedings of the National Academy of Sciences, Volume 123, Issue 14, April 2026. <br />SignificanceElectrocorticography (ECoG) is a widely used measure of cortical activity in humans and animals, providing a unique methodological bridge from basic neuroscience discovery to understanding the human brain in health and disease. However, the ...
+Proceedings of the National Academy of Sciences, Volume 123, Issue 15, April 2026. <br />SignificanceHow dopamine shapes abstract decision-making in the prefrontal cortex remains a central unresolved problem in neuroscience. Using causal, receptor-specific manipulations combined with single-neuron recordings in behaving primates, we show that ...
 
 </details>
 
 ---
 
-## [Active dissociation of intracortical spiking and high gamma activity](https://www.nature.com/articles/s41586-026-10331-y)
-*Nature*  
-Score: **0.95**  
-Published: 2026-04-01T00:00:00+00:00
-Tags: electrophysiology, high-gamma, BMIs, neural dynamics
-
-Uses a brain–machine interface in monkeys to investigate the biophysical relationship between intracortical spiking and cortical high-gamma activity, directly addressing neural signal origins and electrophysiological dynamics.
-
-<details>
-<summary>RSS summary</summary>
-
-<p>Nature, Published online: 01 April 2026; <a href="https://www.nature.com/articles/s41586-026-10331-y">doi:10.1038/s41586-026-10331-y</a></p>A brain–machine interface is used in monkeys to investigate the biophysical underpinnings of cortical high gamma-band activity, a signal that is often studied in the context of many brain functions.
-
-</details>
-
----
-
-## [An emotion recognition dataset using millimeter wave radar and physiological reference signals](https://www.nature.com/articles/s41597-026-07159-6)
+## [Data on electrophysiological responses and psychological reactions to 3D audio scenes and unpleasant International Affective Picture System images stimulation](https://www.nature.com/articles/s41597-026-07111-8)
 *Scientific Data*  
 Score: **0.90**  
-Published: 2026-04-06T00:00:00+00:00
-Tags: dataset, physiological, radar, methods, signal-processing
+Published: 2026-04-11T00:00:00+00:00
+Tags: EEG, dataset, evoked-responses, oscillations, emotion
 
-The dataset explicitly pairs millimeter-wave radar with physiological reference signals, making it directly useful for physiological signal-processing, multimodal inference, and method development. Datasets of this type are high priority for work on physiological time-series and cross-modal signal fusion.
+Announces electrophysiological data collected with controlled sensory (3D audio + IAPS) stimulation, enabling analyses of evoked/ongoing oscillations and state-dependent responses. Good potential for spectral parameterization and waveform-shape studies tied to affective processing.
 
 <details>
 <summary>RSS summary</summary>
 
-<p>Scientific Data, Published online: 06 April 2026; <a href="https://www.nature.com/articles/s41597-026-07159-6">doi:10.1038/s41597-026-07159-6</a></p>An emotion recognition dataset using millimeter wave radar and physiological reference signals
+<p>Scientific Data, Published online: 11 April 2026; <a href="https://www.nature.com/articles/s41597-026-07111-8">doi:10.1038/s41597-026-07111-8</a></p>Data on electrophysiological responses and psychological reactions to 3D audio scenes and unpleasant International Affective Picture System images stimulation
 
 </details>
 
 ---
 
-## [Synaptic connectomics by sequencing](https://www.nature.com/articles/s41592-026-03052-7)
-*Nature Methods*  
-Score: **0.80**  
-Published: 2026-04-01T00:00:00+00:00
-Tags: connectomics, methods, sequencing, mapping
-
-Introduces a sequencing-based, barcode-pairing method to map synaptic connectivity that scales toward comprehensive brain connectivity maps, offering a novel high-throughput connectomics technique.
-
-<details>
-<summary>RSS summary</summary>
-
-<p>Nature Methods, Published online: 01 April 2026; <a href="https://www.nature.com/articles/s41592-026-03052-7">doi:10.1038/s41592-026-03052-7</a></p>A new sequencing-based method optimizes barcode-based synaptic mapping by capturing paired neuronal barcodes from intact synaptic fragments, achieving the efficiency needed to scale toward comprehensive brain connectivity maps.
-
-</details>
-
----
-
-## [Bidirectional brain–heart interactions in health and disease](https://www.nature.com/articles/s41582-025-01180-w)
-*Nature Rev Neurol*  
-Score: **0.78**  
-Published: 2026-04-02T00:00:00+00:00
-Tags: brain–heart, ECG, physiology, review, systems
-
-Review explicitly focuses on reciprocal brain–heart interactions and discusses clinical conditions where these interactions are prominent, aligning with physiological signal processing (ECG) and brain–body dynamics.
-
-<details>
-<summary>RSS summary</summary>
-
-<p>Nature Reviews Neurology, Published online: 02 April 2026; <a href="https://www.nature.com/articles/s41582-025-01180-w">doi:10.1038/s41582-025-01180-w</a></p>This Review explores how reciprocal brain–heart interactions can cause dysfunction in one of these organs to adversely affect the other. The authors discuss clinical conditions, such as Takotsubo syndrome and stroke–heart syndrome, in which these interactions are particularly prominent and address sex and gender differences in brain–hear…
-
-</details>
-
----
-
-## [Opportunities and pitfalls of data contextualization in neuroimaging](https://www.nature.com/articles/s41583-026-01038-0)
-*Nature Rev Neurosci*  
-Score: **0.70**  
-Published: 2026-04-02T00:00:00+00:00
-Tags: neuroimaging, methods, analysis, data-science, review
-
-Roadmap discusses practical guidelines at study design and analysis pipeline levels for contextualizing brain maps, relevant to data‑science aspects of neuroimaging and methodological rigor.
-
-<details>
-<summary>RSS summary</summary>
-
-<p>Nature Reviews Neuroscience, Published online: 02 April 2026; <a href="https://www.nature.com/articles/s41583-026-01038-0">doi:10.1038/s41583-026-01038-0</a></p>Despite rapid exploitation of the opportunities that contextualization of brain maps affords, potential limitations have received little attention. In this Roadmap, Royer et al. provide practical guidelines operating at the level of study design, analysis pipelines and interpretation of findings to encourage the development of best pr…
-
-</details>
-
----
-
-## [The Global Neuronal Workspace as a multilevel model of conscious processing](https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(26)00054-9?rss=yes)
-*Trends Cogn Sci*  
-Score: **0.60**  
-Published: 2026-04-01T00:00:00+00:00
-Tags: theory, network dynamics, consciousness, multilevel
-
-Summarizes GNW emphasizing multilevel architecture from cellular/molecular mechanisms to large-scale network dynamics, relevant for researchers interested in linking cellular physiology to network-level computation.
-
-<details>
-<summary>RSS summary</summary>
-
-Debates in consciousness science increasingly question whether computational functionalism is sufficient to explain conscious processing. We summarize three core features of the Global Neuronal Workspace (GNW) theory that highlight the multilevel architecture of conscious processing, extending from cellular and molecular mechanisms to large-scale network dynamics. On this interpretation, GNW is not a functionalist computational theory, unlike the Global Workspace theory, with which it is frequen…
-
-</details>
-
----
-
-## [Deconstruction of a spino-brain–spinal cord circuit that drives chronic pain](https://www.nature.com/articles/s41586-026-10296-y)
-*Nature*  
-Score: **0.55**  
-Published: 2026-04-01T00:00:00+00:00
-Tags: spinal cord, circuits, mouse, electrophysiology
-
-Dissects a mouse circuit connecting spinal cord and brain regions (centred on spinal-projecting neurons in the rostral ventromedial medulla) that drives chronic pain, relevant for circuit-level electrophysiology and neural dynamics.
-
-<details>
-<summary>RSS summary</summary>
-
-<p>Nature, Published online: 01 April 2026; <a href="https://www.nature.com/articles/s41586-026-10296-y">doi:10.1038/s41586-026-10296-y</a></p>In mice, a circuit between the spinal cord and various regions of the brain, centring on spinal-cord-projecting neurons in the rostral ventromedial medulla, has a key role in driving chronic pain.
-
-</details>
-
----
-
-## [Universal restoration of medical images](https://www.nature.com/articles/s43588-026-00975-1)
-*Nature Comput Sci*  
-Score: **0.45**  
-Published: 2026-04-03T00:00:00+00:00
-Tags: methods, self-supervised, denoising, medical-imaging
-
-Presents a self-supervised foundation model (HorusEye) that learns realistic noise for robust restoration across modalities, which is relevant if you leverage self-supervised/denoising approaches for physiological or neural data. The methods focus on learning noise models and restoration applicable beyond imaging.
-
-<details>
-<summary>RSS summary</summary>
-
-<p>Nature Computational Science, Published online: 03 April 2026; <a href="https://www.nature.com/articles/s43588-026-00975-1">doi:10.1038/s43588-026-00975-1</a></p>A self-supervised foundation model, HorusEye, learns realistic noise directly from X-ray scans and enables robust tomography restoration across diverse modalities, scanners, and tasks without clean training data.
-
-</details>
-
----
-
-## [Musical neurodynamics and the ‘inner voice’](https://www.nature.com/articles/s41583-026-01041-5)
-*Nature Rev Neurosci*  
-Score: **0.45**  
-Published: 2026-04-02T00:00:00+00:00
-Tags: neurodynamics, oscillations, cognition, review
-
-Title indicates a focus on neurodynamics in the context of music and inner voice, which may touch on oscillatory dynamics and neural timing but appears more conceptual than methods‑focused.
-
-<details>
-<summary>RSS summary</summary>
-
-<p>Nature Reviews Neuroscience, Published online: 02 April 2026; <a href="https://www.nature.com/articles/s41583-026-01041-5">doi:10.1038/s41583-026-01041-5</a></p>Musical neurodynamics and the ‘inner voice’
-
-</details>
-
----
-
-## [Dopaminergic mechanisms of dynamical social specialization](https://www.nature.com/articles/s41586-026-10301-4)
-*Nature*  
-Score: **0.45**  
-Published: 2026-04-01T00:00:00+00:00
-Tags: dopamine, mouse, longitudinal, neural activity
-
-Longitudinal mouse recordings link ventral tegmental dopaminergic activity to emergent social-role specialization, which could be of interest if it includes neural recording or dynamics analyses.
-
-<details>
-<summary>RSS summary</summary>
-
-<p>Nature, Published online: 01 April 2026; <a href="https://www.nature.com/articles/s41586-026-10301-4">doi:10.1038/s41586-026-10301-4</a></p>Longitudinal tracking of mice reveals that stable, specialized social roles emerge spontaneously within groups during a foraging task, with dopaminergic activity in the ventral tegmental area driving sex-divergent patterns of specialization.
-
-</details>
-
----
-
-## [Neural circuits for decision-making based on pineal photoreception in zebrafish](https://www.pnas.org/doi/abs/10.1073/pnas.2520290123?af=R)
+## [Brain–computer interface–based neurofeedback training enables transferable control of cortical state switching in humans](https://www.pnas.org/doi/abs/10.1073/pnas.2525769123?af=R)
 *PNAS*  
-Score: **0.35**  
-Published: 2026-03-31T07:00:00+00:00
-Tags: zebrafish, circuits, sensory, cross-species
+Score: **0.88**  
+Published: 2026-04-10T07:00:00+00:00
+Tags: BCI, neurofeedback, cortical-state, oscillations, closed-loop
 
-Identifies the brain region processing pineal-derived light signals in zebrafish to study decision circuits, relevant to cross-species circuit mapping though mainly sensory/circuit-level rather than signal-processing methods.
+Reports BCI neurofeedback that trains transferable control over cortical state switching — directly relevant to interventions on oscillatory/aperiodic dynamics and state-dependent timescales. Work likely involves electrophysiological signal processing and closed-loop methods.
 
 <details>
 <summary>RSS summary</summary>
 
-Proceedings of the National Academy of Sciences, Volume 123, Issue 14, April 2026. <br />SignificanceAlthough pineal light information has long been assumed to be transmitted to the brain, functional evidence has been lacking. To identify the brain region responsible for processing pineal-derived light signals, we exploited the distinct ...
+Proceedings of the National Academy of Sciences, Volume 123, Issue 15, April 2026. <br />SignificanceHumans can flexibly control actions. Although closed-loop regulation of sensorimotor activity has been demonstrated since the 1960s, whether these volitional transitions can be rapidly controlled to improve behavior was unknown. Here, we ...
+
+</details>
+
+---
+
+## [Brain-inspired warm-up training with random noise for uncertainty calibration](https://www.nature.com/articles/s42256-026-01215-x)
+*Nature Machine Intell*  
+Score: **0.85**  
+Published: 2026-04-09T00:00:00+00:00
+Tags: ML, uncertainty, calibration, methods, computational
+
+This proposes a training method (warm-up with random noise) that directly targets uncertainty calibration in neural networks and frames it as brain‑inspired — highly relevant for computational neuroscience methods and model reliability.
+
+<details>
+<summary>RSS summary</summary>
+
+<p>Nature Machine Intelligence, Published online: 09 April 2026; <a href="https://www.nature.com/articles/s42256-026-01215-x">doi:10.1038/s42256-026-01215-x</a></p>Cheon and Paik show that overconfidence in deep neural networks arises from standard initialization practices, and that brief warm-up training with random noise improves uncertainty calibration and meta-cognitive recognition of unknown inputs.
+
+</details>
+
+---
+
+## [Learning to be uncertain before learning from data](https://www.nature.com/articles/s42256-026-01205-z)
+*Nature Machine Intell*  
+Score: **0.80**  
+Published: 2026-04-09T00:00:00+00:00
+Tags: ML, uncertainty, calibration, computational, methods
+
+Describes pre-training on noise to improve model calibration and OOD detection, a methodological idea that can transfer to neuroscience modeling and robustness of data‑driven analyses.
+
+<details>
+<summary>RSS summary</summary>
+
+<p>Nature Machine Intelligence, Published online: 09 April 2026; <a href="https://www.nature.com/articles/s42256-026-01205-z">doi:10.1038/s42256-026-01205-z</a></p>Neural networks may be overconfident before they see real data. By briefly training on random noise, models can learn to be uncertain, leading to better calibration, improved identification of out-of-distribution inputs and thus more reliable predictions.
+
+</details>
+
+---
+
+## [Correcting optical aberrations in living brains with two-photon microscopy using neural fields](https://www.nature.com/articles/s41592-026-03054-5)
+*Nature Methods*  
+Score: **0.62**  
+Published: 2026-04-13T00:00:00+00:00
+Tags: methods, two-photon, adaptive-optics, neural-fields, imaging
+
+Presents a computational neural-field framework (NeAT) for adaptive-optics correction in two-photon microscopy, which improves in vivo imaging quality and motion/aberration correction — useful for labs relying on high-quality neural recordings. Enables better morphological/functional imaging that can complement electrophysiology.
+
+<details>
+<summary>RSS summary</summary>
+
+<p>Nature Methods, Published online: 13 April 2026; <a href="https://www.nature.com/articles/s41592-026-03054-5">doi:10.1038/s41592-026-03054-5</a></p>We introduce neural fields for adaptive optical two-photon fluorescence microscopy (NeAT), a framework that reconstructs 3D structure from a volumetric image stack while estimating wavefront aberrations and correcting sample motion and conjugation errors. Application of NeAT on custom and commercial microscopes improved quality of in vivo structur…
+
+</details>
+
+---
+
+## [Author Correction: Foundation model of neural activity predicts response to new stimulus types](https://www.nature.com/articles/s41586-026-10457-z)
+*Nature*  
+Score: **0.60**  
+Published: 2026-04-08T00:00:00+00:00
+Tags: computational, foundation-model, neural-activity, modeling, methods
+
+Related to a foundation-model approach for predicting neural activity across stimulus types, which is directly relevant to computational modeling of neural signals; this item is an author correction so offers limited new content. Still important for methods-focused readers tracking large-scale modeling work.
+
+<details>
+<summary>RSS summary</summary>
+
+<p>Nature, Published online: 08 April 2026; <a href="https://www.nature.com/articles/s41586-026-10457-z">doi:10.1038/s41586-026-10457-z</a></p>Author Correction: Foundation model of neural activity predicts response to new stimulus types
+
+</details>
+
+---
+
+## [Adaptive optical correction for in vivo two-photon fluorescence microscopy with neural fields](https://www.nature.com/articles/s41592-026-03053-6)
+*Nature Methods*  
+Score: **0.56**  
+Published: 2026-04-13T00:00:00+00:00
+Tags: methods, two-photon, adaptive-optics, imaging, neural-fields
+
+Describes NeAT as a computational framework to incorporate adaptive optics into two-photon microscopes for real-time correction in mouse brain imaging, which facilitates higher-quality functional recordings. Relevant as an enabling method rather than a time-series analysis advance.
+
+<details>
+<summary>RSS summary</summary>
+
+<p>Nature Methods, Published online: 13 April 2026; <a href="https://www.nature.com/articles/s41592-026-03053-6">doi:10.1038/s41592-026-03053-6</a></p>NeAT is a computational framework that facilitates incorporating adaptive optics into custom or commercial two-photon microscopes. This allows correcting aberrations and conjugation errors in real time in the mouse brain during morphological or functional imaging.
+
+</details>
+
+---
+
+## [Perceptual multistability: a multifaceted window into brain dysfunctions](https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(26)00032-X?rss=yes)
+*Trends Cogn Sci*  
+Score: **0.50**  
+Published: 2026-04-11T00:00:00+00:00
+Tags: multistability, computational, timescales, modeling, perception
+
+Discusses temporal dynamics and computational (Bayesian/active inference) approaches to multistability, offering modelling frameworks relevant to neuronal timescales and computational psychiatry. Less focused on electrophysiological methods but useful for modeling temporal signatures of perception.
+
+<details>
+<summary>RSS summary</summary>
+
+Perceptual multistability, observed across species and sensory modalities, offers valuable insights into numerous cognitive functions and dysfunctions. For instance, differences in temporal dynamics and information integration during percept formation often distinguish clinical from nonclinical populations. Computational psychiatry can elucidate these variations through two primary approaches: (i) Bayesian modeling, which treats perception as an unconscious inference, and (ii) an active, informa…
+
+</details>
+
+---
+
+## [A shared code for perceiving and imagining objects in human ventral temporal cortex](https://www.science.org/doi/abs/10.1126/science.adt8343?af=R)
+*Science*  
+Score: **0.45**  
+Published: 2026-04-09T06:00:02+00:00
+Tags: neural coding, ventral-temporal, computational, imaging
+
+Neuroscience study about coding in ventral temporal cortex that may include computational analyses of neural representations; relevant to neural coding though likely imaging‑heavy based on title.
+
+<details>
+<summary>RSS summary</summary>
+
+Science, Volume 392, Issue 6794, Page 207-215, April 2026. <br />
+
+</details>
+
+---
+
+## [Sender–receiver subdivisions of the default mode network in perceptual and memory-guided cognition](https://www.pnas.org/doi/abs/10.1073/pnas.2528851123?af=R)
+*PNAS*  
+Score: **0.45**  
+Published: 2026-04-07T07:00:00+00:00
+Tags: fMRI, network, information-flow, default-mode, computational
+
+Addresses opposing directions of information flow and network subdivisions supporting different cognitive modes, which is of computational/network interest; likely fMRI-based so down-weighted relative to direct electrophysiology or neural-timescale methods.
+
+<details>
+<summary>RSS summary</summary>
+
+Proceedings of the National Academy of Sciences, Volume 123, Issue 15, April 2026. <br />SignificanceHuman cognition depends on flexibly shifting between perception and memory-based thought. These modes place opposing demands on neural systems, consistent with opposite directions of information flow. We show that this flexibility is ...
+
+</details>
+
+---
+
+## [The potential of low-field MRI for global dementia care](https://www.nature.com/articles/s41582-026-01199-7)
+*Nature Rev Neurol*  
+Score: **0.45**  
+Published: 2026-04-07T00:00:00+00:00
+Tags: MRI, dementia, neuroimaging, methods
+
+Focuses on accessible neuroimaging methods for dementia care, which is relevant to neuroimaging methodology and scalability though it does not address electrophysiology or time‑series signal processing.
+
+<details>
+<summary>RSS summary</summary>
+
+<p>Nature Reviews Neurology, Published online: 07 April 2026; <a href="https://www.nature.com/articles/s41582-026-01199-7">doi:10.1038/s41582-026-01199-7</a></p>The prevalence of dementia is rising in low-income and middle-income countries, but access to advanced diagnostic and research tools such as neuroimaging remains severely restricted in these regions. This Review highlights the potential of low-field MRI as an accessible alternative to conventional imaging in resource-limited settings.
+
+</details>
+
+---
+
+## [The colors of images preferred by individual voxels can be used to delineate functionally distinct visually responsive brain areas](https://www.pnas.org/doi/abs/10.1073/pnas.2535986123?af=R)
+*PNAS*  
+Score: **0.38**  
+Published: 2026-04-07T07:00:00+00:00
+Tags: fMRI, voxelwise, computational, visual-system, methods
+
+Presents voxelwise, dataset-scale computational analysis (Natural Scenes Dataset) to delineate functional areas—methodologically relevant for large-scale neural data analysis, but appears to be fMRI/voxel-level work rather than electrophysiology.
+
+<details>
+<summary>RSS summary</summary>
+
+Proceedings of the National Academy of Sciences, Volume 123, Issue 15, April 2026. <br />We exploited co-occurrences between color and other properties of natural scenes to identify and visualize functionally distinct brain regions. For each voxel in the Natural Scenes Dataset (NSD), we computed a scaled response-weighted average of the ...
+
+</details>
+
+---
+
+## [Categorization is ‘baked’ into the brain](https://www.nature.com/articles/s41583-026-01036-2)
+*Nature Rev Neurosci*  
+Score: **0.36**  
+Published: 2026-04-13T00:00:00+00:00
+Tags: cognition, categorization, computational-neuroscience
+
+Perspective arguing categorization is pervasive across processing stages; conceptually relevant to computational theories of neural coding but contains limited direct electrophysiological or time-series methodology. Best for theoretical context rather than signal-analysis methods.
+
+<details>
+<summary>RSS summary</summary>
+
+<p>Nature Reviews Neuroscience, Published online: 13 April 2026; <a href="https://www.nature.com/articles/s41583-026-01036-2">doi:10.1038/s41583-026-01036-2</a></p>Categorization, the grouping of objects, living organisms, actions or events into equivalence clusters, is fundamental to adaptive behaviour. In this Perspective, Barrett and Miller discuss evidence that, rather that being the end stage of perception, categorization occurs throughout signal processing and is a core computational strat…
+
+</details>
+
+---
+
+## [Speech and language in healthy ageing and Alzheimer’s dementia](https://www.nature.com/articles/s44159-026-00553-2)
+*Nature Rev Psychol*  
+Score: **0.35**  
+Published: 2026-04-07T00:00:00+00:00
+Tags: aging, language, Alzheimer's, cognition
+
+A review of speech and language changes in aging and Alzheimer’s that could inform cognitive/neural phenotyping and behavioral correlates of neural decline, but it does not appear to include electrophysiology or spectral methods.
+
+<details>
+<summary>RSS summary</summary>
+
+<p>Nature Reviews Psychology, Published online: 07 April 2026; <a href="https://www.nature.com/articles/s44159-026-00553-2">doi:10.1038/s44159-026-00553-2</a></p>Healthy ageing involves cognitive and functional declines, many of which intensify in Alzheimer’s dementia. In this Review, Garcia outlines key age-related changes in speech and language abilities and how these typical changes differ from changes observed in Alzheimer’s dementia.
 
 </details>
 
