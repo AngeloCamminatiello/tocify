@@ -1,245 +1,245 @@
-# Weekly ToC Digest (week of 2026-04-27)
+# Weekly ToC Digest (week of 2026-05-04)
 
-Ranked TOC items prioritized for methods, imaging and data-science relevance to neuroscience (physiological time-series, cross‑scale imaging, datasets, and preprocessing). Few items this week directly address electrophysiology, oscillations or spectral methods; fMRI dataset and novel volumetric imaging methods are highest. Prioritized computational/method papers and physiological tools. Top picks: a multimodal embedding method (potentially useful for integrated data analyses) and a new red calcium indicator (relevant to imaging/electrophysiology). Lower-ranked items are general-AI, physiology, or biotech pieces with limited direct relevance to neural time-series or oscillation methods. Top picks this week: a thorough review framing digital biomarkers for neurodegeneration (highly relevant for wearable/physiological-signal work) and two methods papers in Nature Methods on bioimage analysis and live‑cell/mouse brain imaging. Also included are a few computational neuroscience and ML-metho
+Prioritized items relevant to electrophysiology, physiological time-series, signal-processing/dataset resources, and computational methods that could transfer to neural data analysis. Items ranked by relevance to neural/physiological time-series methods, electrophysiology, cross-species recordings, oscillations/aperiodic dynamics, and physiological signal processing. Triage prioritized neuro/physiology methods and computational modelling. Most items this week are outside electrophysiology/time-series focus; I highlight a few methodologically relevant papers (imaging/ML/simulation) and flag neuro-related biological studies for awareness.
 
 **Included:** 14 (score ≥ 0.35)  
-**Scored:** 24 total items
+**Scored:** 20 total items
 
 ---
 
-## [A framework of digital biomarkers for neurodegenerative diseases](https://www.nature.com/articles/s44222-026-00433-7)
+## [Large-scale electrophysiology at single-spike resolution](https://www.nature.com/articles/s41583-026-01042-4)
+*Nature Rev Neurosci*  
+Score: **0.95**  
+Published: 2026-05-01T00:00:00+00:00
+Tags: electrophysiology, methods, large-scale, spikes
+
+Review directly addresses large-scale electrophysiology and considerations for collecting, analysing and sharing high-channel neural recordings — highly relevant to methods for neural time series and cross‑scale electrophysiology.
+
+<details>
+<summary>RSS summary</summary>
+
+<p>Nature Reviews Neuroscience, Published online: 01 May 2026; <a href="https://www.nature.com/articles/s41583-026-01042-4">doi:10.1038/s41583-026-01042-4</a></p>Recent advances in large-scale electrophysiology now enable researchers to record from thousands of neurons distributed across the brain. Siegle and Steinmetz describe the principles underlying this technology and outline the key considerations, challenges and opportunities associated with collecting, analysing and sharing large electro…
+
+</details>
+
+---
+
+## [Neural correlates of perceptual decision-making in the primary somatosensory cortex](https://www.pnas.org/doi/abs/10.1073/pnas.2514107123?af=R)
+*PNAS*  
+Score: **0.95**  
+Published: 2026-04-29T07:00:00+00:00
+Tags: electrophysiology, decision-making, time-series, S1
+
+Title and summary state dense electrophysiological recordings in whisker-related S1 during sensory evidence accumulation, directly relevant to neural time-series analysis and cross-area dynamics in decision-making.
+
+<details>
+<summary>RSS summary</summary>
+
+Proceedings of the National Academy of Sciences, Volume 123, Issue 18, May 2026. <br />SignificanceBy employing ethological whisker-guided navigation of mice in a tactile virtual reality paradigm combined with dense electrophysiological recordings in whisker-related wS1, we show that neural activity during sensory evidence accumulation ...
+
+</details>
+
+---
+
+## [A large-scale 12-lead electrocardiogram dataset for acute coronary syndrome prediction containing 19,955 ECGs](https://www.nature.com/articles/s41597-026-07278-0)
+*Scientific Data*  
+Score: **0.90**  
+Published: 2026-05-04T00:00:00+00:00
+Tags: ECG, dataset, physiological signals, methods
+
+Provides a large, curated physiological time-series dataset (12‑lead ECGs) that is directly relevant to physiological signal processing and dataset-driven method development.
+
+<details>
+<summary>RSS summary</summary>
+
+<p>Scientific Data, Published online: 04 May 2026; <a href="https://www.nature.com/articles/s41597-026-07278-0">doi:10.1038/s41597-026-07278-0</a></p>A large-scale 12-lead electrocardiogram dataset for acute coronary syndrome prediction containing 19,955 ECGs
+
+</details>
+
+---
+
+## [Digital twins and digital models of the human circulatory system](https://www.nature.com/articles/s44222-026-00427-5)
 *Nature Rev Biotech*  
 Score: **0.88**  
-Published: 2026-04-23T00:00:00+00:00
-Tags: digital-biomarkers, wearables, sensors, methods, neurodegeneration
+Published: 2026-04-30T00:00:00+00:00
+Tags: digital twin, physiological modeling, ECG, methods
 
-This review lays out a standardized framework for digital biomarkers from smartphones, wearables and ambient sensors — directly relevant to physiological signal processing and real-world neural monitoring. It should be useful for methods and validation approaches for continuous biosignal analytics.
+Review explicitly about integrating real-time physiological data with computational models (digital twins), which aligns with interests in physiological signal processing and computational methods for time-series data.
 
 <details>
 <summary>RSS summary</summary>
 
-<p>Nature Reviews Bioengineering, Published online: 23 April 2026; <a href="https://www.nature.com/articles/s44222-026-00433-7">doi:10.1038/s44222-026-00433-7</a></p>Digital biomarkers derived from smartphones, wearables and ambient sensors enable continuous, real-world monitoring of neurological disease. This Review proposes a standardized framework for classifying digital biomarkers across neurodegenerative diseases, structured around what is measured, how it is sensed and why it is applied, h…
+<p>Nature Reviews Bioengineering, Published online: 30 April 2026; <a href="https://www.nature.com/articles/s44222-026-00427-5">doi:10.1038/s44222-026-00427-5</a></p>Digital twins of the human circulatory system aim to integrate real-time physiological data with computational models to understand, monitor and treat cardiovascular and haematological diseases. This Review outlines the components, clinical applications and emerging technologies enabling such digital twins, highlighting the remainin…
 
 </details>
 
 ---
 
-## [GloBIAS: strengthening the foundations of bioimage analysis](https://www.nature.com/articles/s41592-026-03060-7)
-*Nature Methods*  
-Score: **0.65**  
-Published: 2026-04-22T00:00:00+00:00
-Tags: bioimage, methods, computational, analysis
-
-A methods piece focused on improving foundations of bioimage analysis is relevant for computational neuroscience labs that rely on robust image-processing pipelines and reproducible data analysis. Improvements to bias mitigation and analysis standards could transfer to neural imaging workflows.
-
-<details>
-<summary>RSS summary</summary>
-
-<p>Nature Methods, Published online: 22 April 2026; <a href="https://www.nature.com/articles/s41592-026-03060-7">doi:10.1038/s41592-026-03060-7</a></p>GloBIAS: strengthening the foundations of bioimage analysis
-
-</details>
-
----
-
-## [Synthetic multicolor antigen-stabilizable nanobody platform for intersectional labeling and functional imaging](https://www.nature.com/articles/s41592-026-03056-3)
-*Nature Methods*  
-Score: **0.58**  
-Published: 2026-04-22T00:00:00+00:00
-Tags: imaging, nanobody, in-vivo, methods
-
-Describes a multicolor nanobody platform that becomes fluorescent on binding and enables background-free functional imaging in vivo (including mouse brain), which is directly applicable to neural measurement techniques. Useful if you combine imaging with physiological recordings or need cleaner signal readouts.
-
-<details>
-<summary>RSS summary</summary>
-
-<p>Nature Methods, Published online: 22 April 2026; <a href="https://www.nature.com/articles/s41592-026-03056-3">doi:10.1038/s41592-026-03056-3</a></p>A collection of antigen-stabilizable fluorescent nanobodies becomes fluorescent upon binding to their intracellular targets and enables background-free multicolor imaging and biosensing in living systems, revealing protein dynamics, metabolites and signaling across cellular and in vivo models, including the zebrafish embryo and mouse brain.
-
-</details>
-
----
-
-## [Distinct system-level computations underlie perceptual variation across the visual field](https://www.pnas.org/doi/abs/10.1073/pnas.2533752123?af=R)
+## [Multimodal analysis reveals cellular diversity and divergent circuits of the zona incerta](https://www.pnas.org/doi/abs/10.1073/pnas.2509781123?af=R)
 *PNAS*  
-Score: **0.55**  
-Published: 2026-04-21T07:00:00+00:00
-Tags: visual, computational, systems-neuroscience
+Score: **0.82**  
+Published: 2026-04-29T07:00:00+00:00
+Tags: multimodal, circuits, electrophysiology, ZI
 
-System-level computational work on perceptual variation ties to computational neuroscience and population/system-level analyses of sensory representations. The focus on retinal and cortical contributions may inform modeling of spatially varying neural codes.
+Described as a multimodal analysis of zona incerta cell populations and circuits, this likely involves electrophysiology and circuit-level data relevant to cross-species electrophysiology and neural dynamics.
 
 <details>
 <summary>RSS summary</summary>
 
-Proceedings of the National Academy of Sciences, Volume 123, Issue 17, April 2026. <br />SignificanceHuman visual performance varies across eccentricity—distance from gaze—and around polar angle—circular dimension. Retinal factors and cortical surface area account for eccentricity, but only partially for polar angle variations. Here, we show ...
+Proceedings of the National Academy of Sciences, Volume 123, Issue 18, May 2026. <br />SignificanceThe growing catalog of reported zona incerta (ZI) cell populations and their diverse functions underscores the need for a cohesive framework for understanding this brain area. The growing popularity of the ZI among systems neuroscientists is ...
 
 </details>
 
 ---
 
-## [Astrocytes connect specific brain regions through plastic networks](https://www.nature.com/articles/s41586-026-10426-6)
-*Nature*  
-Score: **0.52**  
-Published: 2026-04-22T00:00:00+00:00
-Tags: astrocytes, networks, connectivity, glia
+## [Digital screening and decision-support tools in equitable preventive cardiology](https://www.nature.com/articles/s41569-026-01299-3)
+*Nature Rev Cardiol*  
+Score: **0.75**  
+Published: 2026-04-30T00:00:00+00:00
+Tags: ECG, digital health, screening, methods
 
-Reports that gap-junction coupled astrocyte networks mediate long-range interregional communication, which is relevant if you study cross-region dynamics or non-neuronal contributions to neural signals. It suggests network-level physiological influences beyond spiking activity.
+Discussion references digital screening (Apple Heart Study) and decision-support tools for cardiology, directly relevant to physiological signal processing (ECG) and applied computational screening methods.
 
 <details>
 <summary>RSS summary</summary>
 
-<p>Nature, Published online: 22 April 2026; <a href="https://www.nature.com/articles/s41586-026-10426-6">doi:10.1038/s41586-026-10426-6</a></p>Communication between distant brain regions is mediated by plastic networks of gap junction-coupled astrocytes.
+<p>Nature Reviews Cardiology, Published online: 30 April 2026; <a href="https://www.nature.com/articles/s41569-026-01299-3">doi:10.1038/s41569-026-01299-3</a></p>Nguyen and Vinh discuss the insights from the Apple Heart Study on digital screening for atrial fibrillation and highlight the importance of equitable access in digital health.
 
 </details>
 
 ---
 
-## [Systematically decoding pathological morphologies and molecular profiles with unified multimodal embedding](https://www.nature.com/articles/s41592-026-03070-5)
+## [Unsupervised transfer learning enables multi-animal tracking without training annotation](https://www.nature.com/articles/s41592-026-03051-8)
 *Nature Methods*  
-Score: **0.50**  
-Published: 2026-04-24T00:00:00+00:00
-Tags: METHODS, MULTIMODAL, EMBEDDING, DATA-SCIENCE
+Score: **0.72**  
+Published: 2026-05-04T00:00:00+00:00
+Tags: tracking, methods, unsupervised, behavior
 
-Presents an interpretable framework (Multi-Embed) for integrated analysis of images and multilayer molecular profiles, which is a computational method for multimodal data fusion that could transfer to neural multimodal datasets.
+Method paper introduces a transformer-based unsupervised tracker for multi-animal behavioral datasets, offering computational tools that could be useful for behavioral-neural alignment and large-scale annotation-free pipelines.
 
 <details>
 <summary>RSS summary</summary>
 
-<p>Nature Methods, Published online: 24 April 2026; <a href="https://www.nature.com/articles/s41592-026-03070-5">doi:10.1038/s41592-026-03070-5</a></p>Multi-Embed is an interpretable framework that enables integrated analyses of histological images and multilayer molecular profiles.
+<p>Nature Methods, Published online: 04 May 2026; <a href="https://www.nature.com/articles/s41592-026-03051-8">doi:10.1038/s41592-026-03051-8</a></p>UDMT is a multi-animal tracker for behavioral research that is based on a transformer architecture, which negates the need for manually annotated training data. UDMT is showcased on datasets encompassing mice, rats, Drosophila, C. elegans and betta fish.
 
 </details>
 
 ---
 
-## [A densely sampled fMRI dataset for investigating food valuation](https://www.nature.com/articles/s41597-026-07323-y)
-*Scientific Data*  
-Score: **0.45**  
-Published: 2026-04-27T00:00:00+00:00
-Tags: fMRI, dataset, time-series, computational
-
-A densely sampled fMRI dataset could be useful for computational analyses of neural dynamics and modelling, even though it is fMRI-only. It may support testing time-series or encoding/decoding approaches relevant to valuation studies.
-
-<details>
-<summary>RSS summary</summary>
-
-<p>Scientific Data, Published online: 27 April 2026; <a href="https://www.nature.com/articles/s41597-026-07323-y">doi:10.1038/s41597-026-07323-y</a></p>A densely sampled fMRI dataset for investigating food valuation
-
-</details>
-
----
-
-## [Flow matching for generative modelling in bioinformatics and computational biology](https://www.nature.com/articles/s42256-026-01220-0)
-*Nature Machine Intell*  
-Score: **0.45**  
-Published: 2026-04-23T00:00:00+00:00
-Tags: machine-learning, generative-models, methods, flow-matching
-
-A methodological review of flow-matching generative models can provide transferable ML techniques for mapping high-dimensional distributions — potentially useful for generative modeling of neural data or augmenting scarce electrophysiology datasets. It focuses on theoretical foundations and applications.
-
-<details>
-<summary>RSS summary</summary>
-
-<p>Nature Machine Intelligence, Published online: 23 April 2026; <a href="https://www.nature.com/articles/s42256-026-01220-0">doi:10.1038/s42256-026-01220-0</a></p>Flow matching has emerged as a promising solution to mapping arbitrary pairs of high-dimensional data distributions, well suited to problems in molecular and cell biology. Morehead et al. review the theoretical foundations of flow-matching-based models and applications of flow matching in computational biology, and discuss its role in…
-
-</details>
-
----
-
-## [A self-organized pencil beam that can be used for fast volumetric imaging](https://www.nature.com/articles/s41592-026-03094-x)
-*Nature Methods*  
-Score: **0.42**  
-Published: 2026-04-27T00:00:00+00:00
-Tags: imaging, methods, multiphoton, volumetric
-
-Describes a fast, high-resolution volumetric imaging method applicable to intact tissues and real-time tracking (including a blood–brain-barrier model), which could enable improved mesoscale neural activity measurement. Methodological advance in imaging throughput is relevant for cross-scale neural data collection.
-
-<details>
-<summary>RSS summary</summary>
-
-<p>Nature Methods, Published online: 27 April 2026; <a href="https://www.nature.com/articles/s41592-026-03094-x">doi:10.1038/s41592-026-03094-x</a></p>We observed that a stable self-localized ultrafast pencil beam can emerge inside a standard multimode fiber near the critical power. This beam enables fast, high-resolution, volumetric imaging of intact tissues and real-time tracking of protein uptake in a human blood–brain barrier model.
-
-</details>
-
----
-
-## [PinkyCaMP: an mScarlet-based calcium sensor with enhanced brightness, photostability and multiplexing capabilities](https://www.nature.com/articles/s41592-026-03065-2)
-*Nature Methods*  
-Score: **0.40**  
-Published: 2026-04-24T00:00:00+00:00
-Tags: CALCIUM, IMAGING, METHODS, GECI
-
-Describes a new red genetically encoded calcium indicator with improved brightness and photostability, directly relevant to calcium imaging and electrophysiology experiments and to multimodal recording setups.
-
-<details>
-<summary>RSS summary</summary>
-
-<p>Nature Methods, Published online: 24 April 2026; <a href="https://www.nature.com/articles/s41592-026-03065-2">doi:10.1038/s41592-026-03065-2</a></p>PinkyCaMP is a red genetically encoded calcium indicator with improved brightness and photostability. Derived from mScarlet, it does not exhibit photoswitching upon blue light illumination and is therefore compatible with green sensors as well as blue-light-sensitive optogenetic tools.
-
-</details>
-
----
-
-## [The continuous dynamics of planning and acting in a virtually embodied task](https://www.pnas.org/doi/abs/10.1073/pnas.2602504123?af=R)
+## [A causal role for the posterior corpus callosum in bimanual coordination](https://www.pnas.org/doi/abs/10.1073/pnas.2516541123?af=R)
 *PNAS*  
-Score: **0.40**  
-Published: 2026-04-21T07:00:00+00:00
-Tags: behavior, planning, computational, dynamics
+Score: **0.70**  
+Published: 2026-04-29T07:00:00+00:00
+Tags: macaque, circuits, cross-species, causal
 
-Investigates continuous interactions between planning and action in a virtually embodied task, which may inform computational/behavioral models of sensorimotor dynamics and affordances relevant to dynamical systems approaches. The emphasis is on continuous behavior rather than neural recordings.
+Study in macaques probing causal pathways for bimanual coordination suggests manipulations and neural recordings across hemispheres, relevant to cross-species electrophysiology and circuit dynamics.
 
 <details>
 <summary>RSS summary</summary>
 
-Proceedings of the National Academy of Sciences, Volume 123, Issue 17, April 2026. <br />SignificanceEveryday activities, such as navigating a crowded street or assembling objects, often involve continuous interactions between planning and action. Yet, it is unclear how people balance opportunities for action (affordances) with long-term ...
+Proceedings of the National Academy of Sciences, Volume 123, Issue 18, May 2026. <br />SignificanceClassic split-brain studies revealed that cutting the corpus callosum impairs bimanual coordination, but the specific pathways and mechanisms remain unclear. In macaques, we temporarily blocked the posterior corpus callosum fibers connecting ...
 
 </details>
 
 ---
 
-## [Self-localized ultrafast pencil beam for volumetric multiphoton imaging](https://www.nature.com/articles/s41592-026-03067-0)
+## [Homologous specialization of arcuate fasciculus ventrolateral frontal connectivity in marmosets and humans](https://www.pnas.org/doi/abs/10.1073/pnas.2600429123?af=R)
+*PNAS*  
+Score: **0.60**  
+Published: 2026-04-30T07:00:00+00:00
+Tags: cross-species, connectivity, comparative, anatomy
+
+Cross-species study of frontal–temporal connectivity (marmosets and humans) is relevant to comparative neural systems and may inform cross-species electrophysiology and circuit-level interpretation.
+
+<details>
+<summary>RSS summary</summary>
+
+Proceedings of the National Academy of Sciences, Volume 123, Issue 18, May 2026. <br />SignificanceThe dorsal pathway connecting temporal and frontal cortices is fundamental to human language, but its evolutionary origins remain contentious due to its limited ventral frontal extensions in macaques. This study challenges a linear view of ...
+
+</details>
+
+---
+
+## [Double robustness](https://www.nature.com/articles/s41592-026-03099-6)
 *Nature Methods*  
-Score: **0.38**  
-Published: 2026-04-27T00:00:00+00:00
-Tags: multiphoton, imaging, methods, volumetric
+Score: **0.45**  
+Published: 2026-05-04T00:00:00+00:00
+Tags: methods, statistics, causal inference
 
-Presents a practical implementation of an ultrafast pencil beam for near-diffraction-limited, high-throughput volumetric imaging, which can facilitate large-scale neural imaging experiments. Useful for labs needing higher-speed multiphoton volumetric acquisition.
+Title/venue indicate a methods/statistics focus (double-robust estimators); could be useful for causal/statistical analyses of neural or physiological datasets, though not specific to electrophysiology.
 
 <details>
 <summary>RSS summary</summary>
 
-<p>Nature Methods, Published online: 27 April 2026; <a href="https://www.nature.com/articles/s41592-026-03067-0">doi:10.1038/s41592-026-03067-0</a></p>A self-localized, ultrafast pencil beam can be readily introduced into multiphoton microscopes and applied for near-diffraction-limited, high-throughput volumetric imaging in intact tissues and in vitro models.
+<p>Nature Methods, Published online: 04 May 2026; <a href="https://www.nature.com/articles/s41592-026-03099-6">doi:10.1038/s41592-026-03099-6</a></p>It is not certain that everything is uncertain. —Blaise Pascal
 
 </details>
 
 ---
 
-## [Evaluating large language models for accuracy incentivizes hallucinations](https://www.nature.com/articles/s41586-026-10549-w)
+## [Quantitative assessment of flow between cerebrospinal and interstitial fluid compartments in humans](https://www.pnas.org/doi/abs/10.1073/pnas.2526239123?af=R)
+*PNAS*  
+Score: **0.45**  
+Published: 2026-04-29T07:00:00+00:00
+Tags: MRI, CSF, neuroimaging, physiology
+
+Presents an MRI approach to quantify CSF–ISF exchange in humans, directly relevant to brain physiology and clearance dynamics; could be useful if you work on physiological signal origins or multimodal human neurophysiology.
+
+<details>
+<summary>RSS summary</summary>
+
+Proceedings of the National Academy of Sciences, Volume 123, Issue 18, May 2026. <br />SignificanceCerebrospinal fluid-interstitial fluid (CSF–ISF) exchange is central to brain clearance, yet quantitative measurements in humans have been lacking. We establish an MRI approach that enables quantification of CSF–ISF exchange using intrathecal ...
+
+</details>
+
+---
+
+## [Deeper detection limits in astronomical imaging using self-supervised spatiotemporal denoising](https://www.science.org/doi/abs/10.1126/science.ady9404?af=R)
+*Science*  
+Score: **0.40**  
+Published: 2026-04-30T07:00:00+00:00
+Tags: denoising, self-supervised, methods
+
+Presents self-supervised spatiotemporal denoising methods for imaging; while focused on astronomy, such denoising approaches may transfer to neural time-series or imaging denoising applications.
+
+<details>
+<summary>RSS summary</summary>
+
+Science, Volume 392, Issue 6797, April 2026. <br />
+
+</details>
+
+---
+
+## [Forest pests hit trees hard as temperatures rise](https://www.nature.com/articles/d41586-026-01288-z)
 *Nature*  
-Score: **0.38**  
-Published: 2026-04-22T00:00:00+00:00
-Tags: ML, evaluation, LLMs, methods
+Score: **0.40**  
+Published: 2026-04-30T00:00:00+00:00
+Tags: ecology, climate
 
-Addresses evaluation incentives for LLMs and how accuracy-focused metrics can encourage hallucinations, which is relevant if you use ML models and care about evaluation methodologies and failure modes in computational pipelines. The topic is broadly ML-focused rather than neural-data specific.
+Ecology-focused article; included at lower priority because it does not address neural dynamics or physiological signal methods.
 
 <details>
 <summary>RSS summary</summary>
 
-<p>Nature, Published online: 22 April 2026; <a href="https://www.nature.com/articles/s41586-026-10549-w">doi:10.1038/s41586-026-10549-w</a></p>Evaluating large language models for accuracy incentivizes hallucinations
+<p>Nature, Published online: 30 April 2026; <a href="https://www.nature.com/articles/d41586-026-01288-z">doi:10.1038/d41586-026-01288-z</a></p>Damage by certain insects and fungi tends to be greatest in US woodlands where maximum temperatures during the warmest months are increasing.
 
 </details>
 
 ---
 
-## [Looking forward: eye-gaze methods in vocabulary development research](https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(26)00076-8?rss=yes)
-*Trends Cogn Sci*  
-Score: **0.36**  
-Published: 2026-04-22T00:00:00+00:00
-Tags: eye-gaze, methods, behavior
+## [Wired for immunity: neuroimmune control of the lung by sensory neurons](https://www.nature.com/articles/s41583-026-01046-0)
+*Nature Rev Neurosci*  
+Score: **0.35**  
+Published: 2026-04-30T00:00:00+00:00
+Tags: neuroimmune, sensory neurons, review
 
-A methods-focused review on eye-gaze paradigms for early language comprehension; useful for experimental design and multimodal behavioral measurement though it does not address electrophysiology or neural time-series directly.
+Review on neuroimmune interactions in the lung involving sensory neurons; of peripheral interest but less aligned with neural time-series, oscillations, or electrophysiology methods prioritized here.
 
 <details>
 <summary>RSS summary</summary>
 
-Human multimodal processing abilities have provided researchers with an invaluable set of methods for interrogating language understanding. Even young infants fixate on visual stimuli that match incoming auditory information. Experimental paradigms have harnessed this behavior to demonstrate early language comprehension abilities. Researchers have since adapted these paradigms to address new questions, such as studying individual differences in vocabulary size and structure, identifying which wo…
+<p>Nature Reviews Neuroscience, Published online: 30 April 2026; <a href="https://www.nature.com/articles/s41583-026-01046-0">doi:10.1038/s41583-026-01046-0</a></p>Lung diseases drive substantial hospitalization, but available therapies remain limited. In this Review, Talbot and colleagues highlight pulmonary neuroimmunology — the bidirectional crosstalk between lung-innervating neurons and immune cells — and discuss how this axis may open new avenues for disease-modifying therapies.
 
 </details>
 
